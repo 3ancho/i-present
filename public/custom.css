@@ -1,0 +1,9 @@
+.deck-container {
+  top: 0px;
+  left: 0px;
+  width: auto;
+  max-width: 864px;
+  margin: 16px auto 24px auto;
+  min-height: 560px;
+  font-size: 16px;
+}

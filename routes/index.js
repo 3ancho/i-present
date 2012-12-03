@@ -1,4 +1,4 @@
-
+path = require('path')
 /*
  * GET home page.
  */
@@ -16,5 +16,5 @@ exports.about = function(req, res){
 };
 
 exports.hello = function(req, res){
-  res.sendfile("public/index.html");
+  res.sendfile(path.join(__dirname, '../public/index.html'));
 };
