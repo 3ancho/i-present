@@ -44,7 +44,7 @@ io.sockets.on('connection', function (socket) {
   socket.emit('news', {data: 'connected'});
 
   socket.on('message', function (data) {
-      console.log(data);
-      socket.broadcast.emit('message', data);
+    console.log(data);
+    socket.broadcast.emit('message', data);
   });
 });

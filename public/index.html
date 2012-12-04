@@ -1,108 +1,137 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=1024, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1024, user-scalable=no">
 
-	<title>Your deck.js Presentation</title>
-	
-	<!-- Required stylesheet -->
-	<link rel="stylesheet" href="core/deck.core.css">
-	
-	<!-- Extension CSS files go here. Remove or add as needed. -->
-	<link rel="stylesheet" href="extensions/goto/deck.goto.css">
-	<link rel="stylesheet" href="extensions/menu/deck.menu.css">
-	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
-	<link rel="stylesheet" href="extensions/status/deck.status.css">
-	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
-	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
+    <title>Your deck.js Presentation</title>
 
-	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<link rel="stylesheet" href="themes/style/web-2.0.css">
-	
-	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
-	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
-	
-	<!-- Required Modernizr file -->
-	<script src="modernizr.custom.js"></script>
+    <!-- Required stylesheet -->
+    <link rel="stylesheet" href="core/deck.core.css">
 
-	<!-- Customized by Ruoran -->
-	<link rel="stylesheet" href="custom.css">
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <link rel="stylesheet" href="extensions/goto/deck.goto.css">
+    <link rel="stylesheet" href="extensions/menu/deck.menu.css">
+    <link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
+    <link rel="stylesheet" href="extensions/status/deck.status.css">
+    <link rel="stylesheet" href="extensions/hash/deck.hash.css">
+    <link rel="stylesheet" href="extensions/scale/deck.scale.css">
 
-  <!-- Ruoran -->
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <link rel="stylesheet" href="themes/style/web-2.0.css">
 
-</head>
-<body>
-<article class="deck-container">
+    <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+    <link rel="stylesheet" href="themes/transition/horizontal-slide.css">
 
-<!-- Begin slides. Just make elements with a class of slide. -->
+    <!-- Required Modernizr file -->
+    <script src="modernizr.custom.js"></script>
 
-<section class="slide">
-	<h1>Slide</h1>
-</section>
+    <!-- Customized by Ruoran -->
+    <link rel="stylesheet" href="custom.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
 
-<section class="slide">
-	<h1>Content</h1>
-</section>
+    <!-- Ruoran -->
+  </head>
+  <body>
+    <div class="container-fluid" style="margin-top: 20px">
+      <div class="row-fluid span12">
+        <article class="span8 deck-container" style="min-height: 560px">
+        <!-- Begin slides. Just make elements with a class of slide. -->
 
-<section class="slide">
-	<h2>Here</h2>
-    <p id="click">Click</p>
-</section>
+        <section class="slide">
+        <h1>Slide</h1>
+        </section>
 
-<!-- End slides. -->
+        <section class="slide">
+        <h1>Content</h1>
+        </section>
 
+        <section class="slide">
+        <h2>Here</h2>
+        <p id="click">Click</p>
+        </section>
 
-<!-- Begin extension snippets. Add or remove as needed. -->
+        <!-- End slides. -->
+        <!-- Begin extension snippets. Add or remove as needed. -->
 
-<!-- deck.navigation snippet -->
-<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
-<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+        <!-- deck.navigation snippet -->
+        <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+        <a href="#" class="deck-next-link" title="Next">&#8594;</a>
 
-<!-- deck.status snippet -->
-<p class="deck-status">
-	<span class="deck-status-current"></span>
-	/
-	<span class="deck-status-total"></span>
-</p>
+        <!-- deck.status snippet -->
+        <p class="deck-status">
+        <span class="deck-status-current"></span>
+        /
+        <span class="deck-status-total"></span>
+        </p>
 
-<!-- deck.goto snippet -->
-<form action="." method="get" class="goto-form">
-	<label for="goto-slide">Go to slide:</label>
-	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
-	<datalist id="goto-datalist"></datalist>
-	<input type="submit" value="Go">
-</form>
+        <!-- deck.goto snippet -->
+        <form action="." method="get" class="goto-form">
+          <label for="goto-slide">Go to slide:</label>
+          <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+          <datalist id="goto-datalist"></datalist>
+          <input type="submit" value="Go">
+        </form>
 
-<!-- deck.hash snippet -->
-<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+        <!-- deck.hash snippet -->
+        <a href="." title="Permalink to this slide" class="deck-permalink">#</a>
 
-<!-- End extension snippets. -->
+        <!-- End extension snippets. -->
 
+        <!-- Required JS files. -->
+        <script src="jquery-1.7.2.min.js"></script>
+        <script src="core/deck.core.js"></script>
 
-<!-- Required JS files. -->
-<script src="jquery-1.7.2.min.js"></script>
-<script src="core/deck.core.js"></script>
+        <!-- Extension JS files. Add or remove as needed. -->
+        <script src="core/deck.core.js"></script>
+        <script src="extensions/hash/deck.hash.js"></script>
+        <script src="extensions/menu/deck.menu.js"></script>
+        <script src="extensions/goto/deck.goto.js"></script>
+        <script src="extensions/status/deck.status.js"></script>
+        <script src="extensions/navigation/deck.navigation.js"></script>
+        <script src="extensions/scale/deck.scale.js"></script>
+        <!-- Initialize the deck. You can put this in an external file if desired. -->
 
-<!-- Extension JS files. Add or remove as needed. -->
-<script src="core/deck.core.js"></script>
-<script src="extensions/hash/deck.hash.js"></script>
-<script src="extensions/menu/deck.menu.js"></script>
-<script src="extensions/goto/deck.goto.js"></script>
-<script src="extensions/status/deck.status.js"></script>
-<script src="extensions/navigation/deck.navigation.js"></script>
-<script src="extensions/scale/deck.scale.js"></script>
+        </article>
 
-<!-- Initialize the deck. You can put this in an external file if desired. -->
-<script>
-	$(function() {
-		$.deck('.slide');
+        <aside id="side-bar" class="span3 well">
+        <p>Chat Window</p>
+        <p id="chat-content" style="height: 300px"> </p>
+        <div class="input-append">
+          <input id="chat-message" class="span10" type="text"></input>
+          <button class="btn" type="button" id="say" >Say</button>
+        </div>
+        </aside>
+      </div> <!-- end of div row -->
+    </div> <!-- end of div container -->
+
+    <script src="socket.io/socket.io.js"></script> 
+    <script>
+      var socket = io.connect('http://localhost:3000');
+      socket.on('news', function (data) {
+        console.log(data);
+      });
+
+      socket.on('message', function (data) {
+        console.log(data);
+        $('chat').text(data);
+      });
+
+      // jQuery Start
+      $(document).ready(function() {
+        $.deck('.slide');
+
         $('#click').click(function() {
-            alert("clicked");
+          alert("clicked");
         });
-	});
-</script>
-</article>
-</body>
+
+        $('#say').click(function() {
+          socket.emit("message", {message: $("#chat-message").val()});
+        });
+      });
+      
+    </script>
+
+  </body>
 </html>

@@ -3,7 +3,9 @@
   left: 0px;
   width: auto;
   max-width: 864px;
-  margin: 16px auto 24px auto;
   min-height: 560px;
   font-size: 16px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
