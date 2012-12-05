@@ -34,17 +34,23 @@ app.get('/', routes.home);
 app.get('/chat', routes.chat);
 app.get('/about', routes.about);
 app.get('/message', routes.message);
-app.get('/hello', routes.hello);
+app.get('/admin', routes.admin);
 
 server.listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
 
 io.sockets.on('connection', function (socket) {
+
   socket.emit('news', {data: 'connected'});
 
   socket.on('message', function (data) {
     console.log(data);
     socket.broadcast.emit('message', data);
+  });
+
+  socket.on('change_slide', function(data) {
+    console.log('change slide to ' + data)
+    socket.broadcast.emit('client_change_slide', data);
   });
 });
