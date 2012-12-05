@@ -97,8 +97,12 @@
         </article>
 
         <aside id="side-bar" class="span3 well">
+        <p id="client-count"> 0 </p>
         <p>Chat Window</p>
-        <p id="chat-content" style="height: 300px"> </p>
+
+        <div id="chat-content" style="height: 300px">
+        </div>
+
         <div class="input-append">
           <input id="chat-message" class="span10" type="text"></input>
           <button class="btn" type="button" id="say" >Say</button>
@@ -109,39 +113,63 @@
 
     <script src="socket.io/socket.io.js"></script> 
     <script>
-      var socket = io.connect('http://localhost:3000');
-      socket.on('news', function (data) {
-        console.log(data);
+      // First class functions
+      name = ""
+      var socket = io.connect("http://localhost:3000");
+      socket.on("news", function (data) {
+        console.log(data.content);
+        $("#client-count").text(data.clients);
       });
 
-      socket.on('client_change_slide', function (data) {
+      socket.on("client_change_slide", function (data) {
         console.log(data);
-        $.deck('go', data);
+        $.deck("go", data);
       });
 
-      socket.on('message', function (data) {
+      socket.on("message", function (data) {
         console.log(data);
-        $('chat').text(data);
+        $("#chat-content").append("<p>" + data.name + ": " +  data.content + "</p>");
       });
+
+      socket.on("client_count_update", function (data) {
+        console.log(data);
+        $("#client-count").text(data.clients);
+      });
+
+      // Helper functions
+      function send_message() {
+        if (name == "") {
+          name = prompt("Enter your name first","Luke Skywalker");
+          while (name == null || name == "") {
+            name == prompt("Please enter your name","Luke Skywalker");
+          }
+        }
+        var new_chat_message = $("#chat-message").val()
+        socket.emit("message", {nickname: name, content: new_chat_message });
+        $("#chat-content").append("<p>" + name + ": " + new_chat_message + "</p>");
+        $("#chat-message").val("")
+      }
 
       // jQuery Start
       $(document).ready(function() {
-        $.deck('.slide');
+        $.deck(".slide");
 
-        $(document).bind('deck.change', function (event, from, to) {
+        $(document).bind("deck.change", function (event, from, to) {
           console.log(to);
-          socket.emit('change_slide', to); 
+          socket.emit("change_slide", to); 
         });
 
-        $('#click').click(function() {
-          alert("clicked");
+        $("#say").click(send_message);
+
+        $("form").each(function() {
+          $("input").keypress(function(e) {
+            if(e.which == 10 || e.which == 13) {
+              send_message();
+            }
+          });
         });
 
-        $('#say').click(function() {
-          socket.emit("message", {message: $("#chat-message").val()});
-        });
       });
-      
     </script>
 
   </body>
