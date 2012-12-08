@@ -1,0 +1,39 @@
+extends layout
+
+block scripts
+    script(src="/socket.io/socket.io.js")
+
+    script
+        var socket = io.connect('http://localhost:3000');
+        socket.on('news', function (data) {
+           console.log(data);
+        });
+        socket.on('message', function (data) {
+           console.log(data);
+           $('chat').text(data);
+        });
+        $(document).ready(function() {
+            $("#hello").click(function() {
+                var nickname = $("#name_field").val();
+                if (!nickname) {
+                  nickname = "anonymous_user";
+                }
+                socket.emit("message", {user: nickname, message: $("#text").val()});
+            });
+        }) 
+        
+
+block content
+    h1 This is a chat room?
+    
+    h1#hello Click Me!!!
+
+    label Your nickname:
+      input(name="nickname", type="text", placeholder="yourname")#name_field
+
+    br
+    label Message:
+      textarea()#text
+
+    label Chat:
+      textarea()#chat

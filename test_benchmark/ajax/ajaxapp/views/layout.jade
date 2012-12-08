@@ -1,0 +1,30 @@
+doctype 5
+html(lang="en")
+
+  include inc/header
+
+  body
+    div.navbar.navbar-fixed-top
+      div.navbar-inner
+        div.container
+          a(data-toggle='collapse', data-target='.nav-collapse').btn.btn-navbar
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+
+          a(href="/").brand ChatApp
+          ul.nav
+            li
+              a(href='/chat') Chat
+            li
+              a(href='/about') About
+
+    block content
+    // content block
+
+
+  include inc/scripts
+  block scripts
+    // additional inline scripts
+  
+  include inc/footer
