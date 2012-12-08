@@ -36,7 +36,6 @@ setInterval(function() {
     var memory = s[3];
 
     var l = [
-      new Date(),
       'U: ' + users,
       'MR/S: ' + countReceived,
       'MS/S: ' + countSended,
@@ -45,7 +44,7 @@ setInterval(function() {
       'CPU: ' + cpu,
       'Mem: ' + memory
     ];
-
+    console.log(new Date());
     console.log(l.join(',\t'));
     countReceived = 0;
     countSended = 0;
