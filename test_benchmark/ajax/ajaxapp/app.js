@@ -32,10 +32,6 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.home);
-app.get('/chat', routes.chat);
-app.get('/about', routes.about);
-app.get('/message', routes.message);
-
 
 // old -start script
 //http.createServer(app).listen(app.get('port'), function(){
