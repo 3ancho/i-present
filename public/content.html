@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="container-fluid" style="margin-top: 20px">
+      <div class="row-fluid span12">
+        <article class="span8 deck-container" style="min-height: 560px">
+        <!-- Begin slides. Just make elements with a class of slide. -->
+
+        <section class="slide">
+        <h1>WebSocket and Interactive Web App</h1>
+        <h2>Ruoran Wang, Yan Wang</h2>
+        </section>
+
+        <section class="slide">
+        <h2>Overview</h2>
+        <h3>Intro</h3>
+        <h3>Background</h3>
+        <h3>AJAX and Long Polling</h3>
+        <h3>Benchmarks</h3>
+        <h3>WebSocket: About the protocol</h3>
+        <h3>WebSocket: Performance</h3>
+        <h3>The Application</h3>
+        </section>
+
+        <section class="slide">
+        <h2>Intro</h2>
+        <h3>Full Duplex tunnel</h3>
+        <h3>Heart Beat (e.g. google doc)</h3>
+        </section>
+
+        <section class="slide">
+        <h2>Background</h2>
+        </section>
+
+  
+        <section class="slide">
+        <h2>Google Doc's traffic</h2>
+        
+        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-06%20at%2010.26.06%20PM.png">
+        </section>
+
+        <section class="slide">
+        <h2>Trello</h2>
+        <h3> Real-time collaborating </h3>
+        </section>
+
+        <section class="slide">
+        <h2>AJAX and Long Polling</h2>
+        <p> Facebook is doing Polling </p>
+        <p> Here is a graph </p>
+        </section>
+        
+        <section class="slide">
+        <h2>Benchmark</h2>
+        <img src="https://dl.dropbox.com/u/4489964/websocket_broadcast.png">
+        <h3></h3>
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: About the protocol</h2>
+        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
+        </section>
+
+        <section class="slide">
+        <h2> WebSocket: The handshake </h2>
+        <h3> Request </h3>
+        <pre>
+        GET /mychat HTTP/1.1
+        Host: server.example.com
+        Upgrade: websocket
+        Connection: Upgrade
+        Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==
+        Sec-WebSocket-Protocol: chat
+        Sec-WebSocket-Version: 13
+        Origin: http://example.com
+        </pre>
+        <h3> Response </h3>
+        <pre>
+        HTTP/1.1 101 Switching Protocols
+        Upgrade: websocket
+        Connection: Upgrade
+        Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+        Sec-WebSocket-Protocol: chat
+        </pre>
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: About the protocol</h2>
+        <p>
+        base64-encoded minus any leading and trailing whitespace
+        Append following  Globally Unique Identifier (GUID).
+        A UUID is 128 bits long, and requires no central registration process. 
+        <pre>Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==</pre>
+        
+        <pre>258EAFA5-E914-47DA-95CA-C5AB0DC85B11</pre>
+
+            Then hash with sha-1, encoded with base64
+        <pre>Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=</pre>
+
+        </p>
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: Ping Pong</h2>
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: Performance</h2>
+        </section>
+
+        <section class="slide">
+        <h2>The Application</h2>
+        </section>
+
+        <!-- End slides. -->
+
+        <!-- Begin extension snippets. Add or remove as needed. -->
+
+        <!-- deck.navigation snippet -->
+        <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+        <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+        <!-- deck.status snippet -->
+        <p class="deck-status">
+        <span class="deck-status-current"></span>
+        /
+        <span class="deck-status-total"></span>
+        </p>
+
+        <!-- deck.goto snippet -->
+        <form action="." method="get" class="goto-form">
+          <label for="goto-slide">Go to slide:</label>
+          <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+          <datalist id="goto-datalist"></datalist>
+          <input type="submit" value="Go">
+        </form>
+
+        <!-- deck.hash snippet -->
+        <a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+        <!-- End extension snippets. -->
+
+        <!-- Required JS files. -->
+        <script src="jquery-1.7.2.min.js"></script>
+        <script src="deck/core/deck.core.js"></script>
+
+        <!-- Extension JS files. Add or remove as needed. -->
+        <script src="deck/core/deck.core.js"></script>
+        <script src="deck/extensions/hash/deck.hash.js"></script>
+        <script src="deck/extensions/menu/deck.menu.js"></script>
+        <script src="deck/extensions/goto/deck.goto.js"></script>
+        <script src="deck/extensions/status/deck.status.js"></script>
+        <script src="deck/extensions/navigation/deck.navigation.js"></script>
+        <script src="deck/extensions/scale/deck.scale.js"></script>
+        <!-- Initialize the deck. You can put this in an external file if desired. -->
+
+        </article>
+
+        <aside id="side-bar" class="span3 well">
+        <p id="client-count"> 0 </p>
+        <p>Chat Window</p>
+
+        <div id="chat-content" style="height: 300px">
+        </div>
+
+        <div class="input-append">
+          <input id="chat-message" class="span10" type="text"></input>
+          <button class="btn" type="button" id="say" >Say</button>
+        </div>
+        </aside>
+      </div> <!-- end of div row -->
+    </div> <!-- end of div container -->
+
+
+  </body>
+</html>
