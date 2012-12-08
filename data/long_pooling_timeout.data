@@ -1,0 +1,1063 @@
+info: socket.io started
+Sat, 08 Dec 2012 21:40:26 GMT
+U: 1,	MR/S: 1,	MS/S: 1,	MR/S/U: 0,	MS/S/U: 0,	CPU: 15.0,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:27 GMT
+U: 3,	MR/S: 3,	MS/S: 8,	MR/S/U: 0.7,	MS/S/U: 1.7,	CPU: 9.5,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:28 GMT
+U: 5,	MR/S: 4,	MS/S: 18,	MR/S/U: 0.8,	MS/S/U: 3.6,	CPU: 7.0,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:29 GMT
+U: 7,	MR/S: 8,	MS/S: 51,	MR/S/U: 1,	MS/S/U: 6.3,	CPU: 5.7,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:30 GMT
+U: 9,	MR/S: 8,	MS/S: 68,	MR/S/U: 0.9,	MS/S/U: 7.6,	CPU: 5.2,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:31 GMT
+U: 11,	MR/S: 11,	MS/S: 114,	MR/S/U: 1,	MS/S/U: 10.4,	CPU: 4.8,	Mem: 0.1
+Sat, 08 Dec 2012 21:40:32 GMT
+U: 13,	MR/S: 13,	MS/S: 161,	MR/S/U: 1,	MS/S/U: 12.4,	CPU: 4.8,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:33 GMT
+U: 15,	MR/S: 15,	MS/S: 216,	MR/S/U: 1,	MS/S/U: 14.4,	CPU: 4.7,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:34 GMT
+U: 17,	MR/S: 17,	MS/S: 279,	MR/S/U: 1,	MS/S/U: 16.4,	CPU: 4.8,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:35 GMT
+U: 19,	MR/S: 19,	MS/S: 350,	MR/S/U: 0.9,	MS/S/U: 17.4,	CPU: 5.2,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:36 GMT
+U: 21,	MR/S: 21,	MS/S: 429,	MR/S/U: 0.9,	MS/S/U: 17.4,	CPU: 5.4,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:37 GMT
+U: 23,	MR/S: 23,	MS/S: 516,	MR/S/U: 0.9,	MS/S/U: 19.4,	CPU: 5.5,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:38 GMT
+U: 25,	MR/S: 25,	MS/S: 611,	MR/S/U: 0.9,	MS/S/U: 21.4,	CPU: 5.6,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:39 GMT
+U: 27,	MR/S: 25,	MS/S: 660,	MR/S/U: 0.8,	MS/S/U: 21.4,	CPU: 5.7,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:40 GMT
+U: 29,	MR/S: 29,	MS/S: 821,	MR/S/U: 0.9,	MS/S/U: 24.3,	CPU: 5.8,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:41 GMT
+U: 31,	MR/S: 29,	MS/S: 878,	MR/S/U: 0.9,	MS/S/U: 26.3,	CPU: 6.0,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:42 GMT
+U: 33,	MR/S: 34,	MS/S: 1096,	MR/S/U: 0.8,	MS/S/U: 25.2,	CPU: 6.4,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:43 GMT
+U: 35,	MR/S: 29,	MS/S: 990,	MR/S/U: 0.7,	MS/S/U: 25.3,	CPU: 6.5,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:44 GMT
+U: 37,	MR/S: 37,	MS/S: 1331,	MR/S/U: 0.9,	MS/S/U: 33,	CPU: 6.6,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:45 GMT
+U: 39,	MR/S: 36,	MS/S: 1365,	MR/S/U: 0.9,	MS/S/U: 35,	CPU: 6.8,	Mem: 0.2
+Sat, 08 Dec 2012 21:40:46 GMT
+U: 41,	MR/S: 42,	MS/S: 1676,	MR/S/U: 1,	MS/S/U: 38.9,	CPU: 7.0,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:47 GMT
+U: 43,	MR/S: 42,	MS/S: 1761,	MR/S/U: 0.9,	MS/S/U: 39,	CPU: 7.3,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:48 GMT
+U: 45,	MR/S: 45,	MS/S: 1977,	MR/S/U: 1,	MS/S/U: 41.9,	CPU: 7.5,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:49 GMT
+U: 47,	MR/S: 45,	MS/S: 2066,	MR/S/U: 0.9,	MS/S/U: 43,	CPU: 7.7,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:50 GMT
+U: 49,	MR/S: 49,	MS/S: 2347,	MR/S/U: 1,	MS/S/U: 45.9,	CPU: 7.9,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:51 GMT
+U: 51,	MR/S: 51,	MS/S: 2546,	MR/S/U: 0.9,	MS/S/U: 44.9,	CPU: 8.1,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:52 GMT
+U: 53,	MR/S: 53,	MS/S: 2753,	MR/S/U: 0.9,	MS/S/U: 46.9,	CPU: 8.3,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:53 GMT
+U: 55,	MR/S: 51,	MS/S: 2748,	MR/S/U: 0.9,	MS/S/U: 47,	CPU: 8.6,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:54 GMT
+U: 57,	MR/S: 57,	MS/S: 3183,	MR/S/U: 0.9,	MS/S/U: 52.8,	CPU: 8.7,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:55 GMT
+U: 59,	MR/S: 56,	MS/S: 3237,	MR/S/U: 0.9,	MS/S/U: 54.9,	CPU: 9.1,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:56 GMT
+U: 61,	MR/S: 61,	MS/S: 3647,	MR/S/U: 0.9,	MS/S/U: 54.8,	CPU: 9.4,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:57 GMT
+U: 63,	MR/S: 62,	MS/S: 3830,	MR/S/U: 0.9,	MS/S/U: 56.8,	CPU: 9.7,	Mem: 0.3
+Sat, 08 Dec 2012 21:40:58 GMT
+U: 65,	MR/S: 64,	MS/S: 4082,	MR/S/U: 0.9,	MS/S/U: 58.8,	CPU: 10.0,	Mem: 0.4
+Sat, 08 Dec 2012 21:40:59 GMT
+U: 67,	MR/S: 63,	MS/S: 4140,	MR/S/U: 0.9,	MS/S/U: 61.8,	CPU: 10.3,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:00 GMT
+U: 69,	MR/S: 71,	MS/S: 4809,	MR/S/U: 1,	MS/S/U: 64.7,	CPU: 10.6,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:01 GMT
+U: 71,	MR/S: 69,	MS/S: 4812,	MR/S/U: 0.9,	MS/S/U: 64.8,	CPU: 10.9,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:02 GMT
+U: 73,	MR/S: 70,	MS/S: 5018,	MR/S/U: 1,	MS/S/U: 68.7,	CPU: 11.2,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:03 GMT
+U: 75,	MR/S: 75,	MS/S: 5526,	MR/S/U: 1,	MS/S/U: 72.7,	CPU: 11.6,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:04 GMT
+U: 77,	MR/S: 77,	MS/S: 5829,	MR/S/U: 1,	MS/S/U: 72.7,	CPU: 11.8,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:05 GMT
+U: 79,	MR/S: 78,	MS/S: 6061,	MR/S/U: 1,	MS/S/U: 74.7,	CPU: 12.0,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:06 GMT
+U: 81,	MR/S: 81,	MS/S: 6457,	MR/S/U: 1,	MS/S/U: 75.7,	CPU: 12.3,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:07 GMT
+U: 83,	MR/S: 81,	MS/S: 6618,	MR/S/U: 1,	MS/S/U: 77.7,	CPU: 12.7,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:08 GMT
+U: 85,	MR/S: 83,	MS/S: 6945,	MR/S/U: 1,	MS/S/U: 80.7,	CPU: 12.9,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:09 GMT
+U: 87,	MR/S: 87,	MS/S: 7454,	MR/S/U: 1,	MS/S/U: 84.7,	CPU: 13.3,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:10 GMT
+U: 89,	MR/S: 88,	MS/S: 7716,	MR/S/U: 1,	MS/S/U: 86.7,	CPU: 13.5,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:11 GMT
+U: 91,	MR/S: 91,	MS/S: 8162,	MR/S/U: 1,	MS/S/U: 87.7,	CPU: 13.6,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:12 GMT
+U: 93,	MR/S: 93,	MS/S: 8529,	MR/S/U: 1,	MS/S/U: 87.7,	CPU: 14.0,	Mem: 0.5
+Sat, 08 Dec 2012 21:41:13 GMT
+U: 95,	MR/S: 95,	MS/S: 8904,	MR/S/U: 1,	MS/S/U: 89.7,	CPU: 14.4,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:14 GMT
+U: 97,	MR/S: 93,	MS/S: 8898,	MR/S/U: 0.9,	MS/S/U: 90.7,	CPU: 14.7,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:15 GMT
+U: 99,	MR/S: 99,	MS/S: 9666,	MR/S/U: 1,	MS/S/U: 94.6,	CPU: 15.1,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:16 GMT
+U: 101,	MR/S: 98,	MS/S: 9760,	MR/S/U: 1,	MS/S/U: 96.6,	CPU: 15.3,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:17 GMT
+U: 103,	MR/S: 103,	MS/S: 10468,	MR/S/U: 1,	MS/S/U: 98.6,	CPU: 15.7,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:18 GMT
+U: 105,	MR/S: 104,	MS/S: 10794,	MR/S/U: 0.9,	MS/S/U: 95.8,	CPU: 16.0,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:19 GMT
+U: 107,	MR/S: 102,	MS/S: 10791,	MR/S/U: 0.9,	MS/S/U: 95.9,	CPU: 16.3,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:20 GMT
+U: 109,	MR/S: 104,	MS/S: 11202,	MR/S/U: 0.9,	MS/S/U: 97.8,	CPU: 16.7,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:21 GMT
+U: 111,	MR/S: 107,	MS/S: 11731,	MR/S/U: 0.9,	MS/S/U: 103.7,	CPU: 17.0,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:22 GMT
+U: 113,	MR/S: 112,	MS/S: 12500,	MR/S/U: 1,	MS/S/U: 107.6,	CPU: 17.3,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:23 GMT
+U: 115,	MR/S: 114,	MS/S: 12944,	MR/S/U: 1,	MS/S/U: 109.6,	CPU: 17.7,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:24 GMT
+U: 117,	MR/S: 115,	MS/S: 13300,	MR/S/U: 1,	MS/S/U: 110.7,	CPU: 17.9,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:25 GMT
+U: 119,	MR/S: 117,	MS/S: 13763,	MR/S/U: 1,	MS/S/U: 112.7,	CPU: 18.2,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:26 GMT
+U: 121,	MR/S: 118,	MS/S: 14126,	MR/S/U: 1,	MS/S/U: 114.7,	CPU: 18.5,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:27 GMT
+U: 123,	MR/S: 117,	MS/S: 14232,	MR/S/U: 1,	MS/S/U: 115.7,	CPU: 18.8,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:28 GMT
+U: 125,	MR/S: 125,	MS/S: 15452,	MR/S/U: 1,	MS/S/U: 118.6,	CPU: 19.1,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:29 GMT
+U: 127,	MR/S: 124,	MS/S: 15576,	MR/S/U: 0.9,	MS/S/U: 117.6,	CPU: 19.4,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:30 GMT
+U: 129,	MR/S: 124,	MS/S: 15816,	MR/S/U: 1,	MS/S/U: 121.6,	CPU: 19.7,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:31 GMT
+U: 131,	MR/S: 131,	MS/S: 16977,	MR/S/U: 1,	MS/S/U: 125.6,	CPU: 20.0,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:32 GMT
+U: 133,	MR/S: 129,	MS/S: 16974,	MR/S/U: 1,	MS/S/U: 125.6,	CPU: 20.5,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:33 GMT
+U: 135,	MR/S: 130,	MS/S: 17350,	MR/S/U: 0.9,	MS/S/U: 125.5,	CPU: 20.8,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:34 GMT
+U: 137,	MR/S: 132,	MS/S: 17886,	MR/S/U: 0.9,	MS/S/U: 127.6,	CPU: 21.1,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:35 GMT
+U: 139,	MR/S: 137,	MS/S: 18853,	MR/S/U: 1,	MS/S/U: 133.6,	CPU: 21.4,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:36 GMT
+U: 141,	MR/S: 139,	MS/S: 19393,	MR/S/U: 1,	MS/S/U: 136.5,	CPU: 21.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:37 GMT
+U: 142,	MR/S: 138,	MS/S: 19525,	MR/S/U: 1,	MS/S/U: 135.5,	CPU: 22.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:38 GMT
+U: 145,	MR/S: 145,	MS/S: 20831,	MR/S/U: 1,	MS/S/U: 139.7,	CPU: 22.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:39 GMT
+U: 147,	MR/S: 143,	MS/S: 20833,	MR/S/U: 0.9,	MS/S/U: 136.7,	CPU: 22.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:40 GMT
+U: 149,	MR/S: 145,	MS/S: 21405,	MR/S/U: 1,	MS/S/U: 140.6,	CPU: 23.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:41 GMT
+U: 150,	MR/S: 147,	MS/S: 21985,	MR/S/U: 0.9,	MS/S/U: 140.6,	CPU: 23.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:42 GMT
+U: 152,	MR/S: 144,	MS/S: 21813,	MR/S/U: 0.9,	MS/S/U: 142.5,	CPU: 23.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:43 GMT
+U: 154,	MR/S: 147,	MS/S: 22560,	MR/S/U: 1,	MS/S/U: 146.5,	CPU: 24.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:44 GMT
+U: 156,	MR/S: 150,	MS/S: 23308,	MR/S/U: 1,	MS/S/U: 149.4,	CPU: 24.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:45 GMT
+U: 158,	MR/S: 154,	MS/S: 24242,	MR/S/U: 1,	MS/S/U: 150.4,	CPU: 24.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:46 GMT
+U: 160,	MR/S: 153,	MS/S: 24371,	MR/S/U: 0.9,	MS/S/U: 147.3,	CPU: 25.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:47 GMT
+U: 162,	MR/S: 150,	MS/S: 24199,	MR/S/U: 0.9,	MS/S/U: 149.4,	CPU: 25.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:48 GMT
+U: 164,	MR/S: 154,	MS/S: 25132,	MR/S/U: 0.9,	MS/S/U: 153.2,	CPU: 26.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:49 GMT
+U: 166,	MR/S: 154,	MS/S: 25437,	MR/S/U: 0.9,	MS/S/U: 146.2,	CPU: 26.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:50 GMT
+U: 168,	MR/S: 154,	MS/S: 25733,	MR/S/U: 0.9,	MS/S/U: 150.2,	CPU: 26.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:51 GMT
+U: 169,	MR/S: 140,	MS/S: 23636,	MR/S/U: 0.8,	MS/S/U: 139.9,	CPU: 27.4,	Mem: 0.3
+Sat, 08 Dec 2012 21:41:52 GMT
+U: 171,	MR/S: 130,	MS/S: 22062,	MR/S/U: 0.8,	MS/S/U: 129,	CPU: 27.7,	Mem: 0.4
+Sat, 08 Dec 2012 21:41:53 GMT
+U: 174,	MR/S: 169,	MS/S: 29207,	MR/S/U: 0.9,	MS/S/U: 155.9,	CPU: 28.0,	Mem: 0.5
+Sat, 08 Dec 2012 21:41:54 GMT
+U: 176,	MR/S: 149,	MS/S: 26054,	MR/S/U: 0.8,	MS/S/U: 148,	CPU: 28.4,	Mem: 0.5
+Sat, 08 Dec 2012 21:41:55 GMT
+U: 178,	MR/S: 152,	MS/S: 26838,	MR/S/U: 0.8,	MS/S/U: 145.6,	CPU: 28.8,	Mem: 0.5
+Sat, 08 Dec 2012 21:41:56 GMT
+U: 180,	MR/S: 148,	MS/S: 26448,	MR/S/U: 0.8,	MS/S/U: 143.7,	CPU: 29.1,	Mem: 0.5
+Sat, 08 Dec 2012 21:41:57 GMT
+U: 181,	MR/S: 159,	MS/S: 28697,	MR/S/U: 0.8,	MS/S/U: 135.5,	CPU: 29.4,	Mem: 0.6
+Sat, 08 Dec 2012 21:41:58 GMT
+U: 183,	MR/S: 145,	MS/S: 26442,	MR/S/U: 0.8,	MS/S/U: 144.5,	CPU: 29.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:41:59 GMT
+U: 185,	MR/S: 137,	MS/S: 25269,	MR/S/U: 0.7,	MS/S/U: 136.6,	CPU: 30.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:00 GMT
+U: 187,	MR/S: 162,	MS/S: 30193,	MR/S/U: 0.9,	MS/S/U: 161.5,	CPU: 30.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:01 GMT
+U: 190,	MR/S: 176,	MS/S: 33177,	MR/S/U: 0.8,	MS/S/U: 145.4,	CPU: 30.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:02 GMT
+U: 191,	MR/S: 116,	MS/S: 22065,	MR/S/U: 0.6,	MS/S/U: 115.5,	CPU: 31.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:03 GMT
+U: 193,	MR/S: 154,	MS/S: 29535,	MR/S/U: 0.8,	MS/S/U: 153,	CPU: 31.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:04 GMT
+U: 195,	MR/S: 152,	MS/S: 29458,	MR/S/U: 0.7,	MS/S/U: 144.8,	CPU: 31.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:05 GMT
+U: 197,	MR/S: 125,	MS/S: 24459,	MR/S/U: 0.6,	MS/S/U: 124.2,	CPU: 32.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:06 GMT
+U: 198,	MR/S: 138,	MS/S: 27252,	MR/S/U: 0.7,	MS/S/U: 137.6,	CPU: 32.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:07 GMT
+U: 200,	MR/S: 171,	MS/S: 34092,	MR/S/U: 0.9,	MS/S/U: 170.5,	CPU: 32.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:08 GMT
+U: 201,	MR/S: 119,	MS/S: 23918,	MR/S/U: 0.6,	MS/S/U: 119,	CPU: 32.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:09 GMT
+U: 204,	MR/S: 140,	MS/S: 28305,	MR/S/U: 0.7,	MS/S/U: 138.8,	CPU: 33.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:10 GMT
+U: 206,	MR/S: 157,	MS/S: 32177,	MR/S/U: 0.8,	MS/S/U: 156.2,	CPU: 33.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:11 GMT
+U: 208,	MR/S: 175,	MS/S: 36290,	MR/S/U: 0.5,	MS/S/U: 109,	CPU: 33.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:12 GMT
+U: 210,	MR/S: 127,	MS/S: 26578,	MR/S/U: 0.6,	MS/S/U: 126.6,	CPU: 34.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:13 GMT
+U: 211,	MR/S: 95,	MS/S: 19971,	MR/S/U: 0.5,	MS/S/U: 94.6,	CPU: 34.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:14 GMT
+U: 214,	MR/S: 182,	MS/S: 38722,	MR/S/U: 0.9,	MS/S/U: 180.9,	CPU: 34.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:15 GMT
+U: 215,	MR/S: 154,	MS/S: 33109,	MR/S/U: 0.5,	MS/S/U: 97,	CPU: 34.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:16 GMT
+U: 216,	MR/S: 104,	MS/S: 22463,	MR/S/U: 0.5,	MS/S/U: 104,	CPU: 35.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:17 GMT
+U: 219,	MR/S: 139,	MS/S: 30331,	MR/S/U: 0.6,	MS/S/U: 138.5,	CPU: 35.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:18 GMT
+U: 220,	MR/S: 130,	MS/S: 28470,	MR/S/U: 0.6,	MS/S/U: 129.4,	CPU: 35.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:19 GMT
+U: 222,	MR/S: 172,	MS/S: 38178,	MR/S/U: 0.6,	MS/S/U: 126,	CPU: 35.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:20 GMT
+U: 224,	MR/S: 99,	MS/S: 22170,	MR/S/U: 0.4,	MS/S/U: 99,	CPU: 36.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:21 GMT
+U: 228,	MR/S: 174,	MS/S: 39479,	MR/S/U: 0.6,	MS/S/U: 128.2,	CPU: 36.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:22 GMT
+U: 228,	MR/S: 114,	MS/S: 25992,	MR/S/U: 0.3,	MS/S/U: 72,	CPU: 36.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:23 GMT
+U: 230,	MR/S: 118,	MS/S: 27066,	MR/S/U: 0.5,	MS/S/U: 117.7,	CPU: 36.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:24 GMT
+U: 232,	MR/S: 138,	MS/S: 31896,	MR/S/U: 0.6,	MS/S/U: 137.5,	CPU: 37.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:25 GMT
+U: 233,	MR/S: 138,	MS/S: 32089,	MR/S/U: 0.6,	MS/S/U: 137.7,	CPU: 37.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:26 GMT
+U: 236,	MR/S: 112,	MS/S: 26363,	MR/S/U: 0.5,	MS/S/U: 111.7,	CPU: 37.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:27 GMT
+U: 236,	MR/S: 106,	MS/S: 25016,	MR/S/U: 0.4,	MS/S/U: 106,	CPU: 37.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:29 GMT
+U: 240,	MR/S: 182,	MS/S: 43546,	MR/S/U: 0.6,	MS/S/U: 146.4,	CPU: 37.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:29 GMT
+U: 241,	MR/S: 98,	MS/S: 23530,	MR/S/U: 0.4,	MS/S/U: 88,	CPU: 38.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:30 GMT
+U: 242,	MR/S: 95,	MS/S: 22985,	MR/S/U: 0.4,	MS/S/U: 95,	CPU: 38.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:31 GMT
+U: 244,	MR/S: 162,	MS/S: 39468,	MR/S/U: 0.7,	MS/S/U: 160.8,	CPU: 38.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:32 GMT
+U: 246,	MR/S: 72,	MS/S: 17641,	MR/S/U: 0.3,	MS/S/U: 71.7,	CPU: 38.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:33 GMT
+U: 248,	MR/S: 128,	MS/S: 31618,	MR/S/U: 0.5,	MS/S/U: 127.5,	CPU: 38.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:34 GMT
+U: 250,	MR/S: 151,	MS/S: 37601,	MR/S/U: 0.6,	MS/S/U: 150.4,	CPU: 39.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:35 GMT
+U: 251,	MR/S: 98,	MS/S: 24546,	MR/S/U: 0.4,	MS/S/U: 97.8,	CPU: 39.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:37 GMT
+U: 253,	MR/S: 230,	MS/S: 57950,	MR/S/U: 0.3,	MS/S/U: 68,	CPU: 39.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:37 GMT
+U: 253,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 39.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:39 GMT
+U: 255,	MR/S: 197,	MS/S: 50034,	MR/S/U: 0.8,	MS/S/U: 196.2,	CPU: 40.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:40 GMT
+U: 256,	MR/S: 90,	MS/S: 23039,	MR/S/U: 0.4,	MS/S/U: 90,	CPU: 40.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:40 GMT
+U: 257,	MR/S: 83,	MS/S: 21330,	MR/S/U: 0.3,	MS/S/U: 83,	CPU: 40.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:41 GMT
+U: 258,	MR/S: 116,	MS/S: 29858,	MR/S/U: 0.4,	MS/S/U: 115.7,	CPU: 40.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:42 GMT
+U: 259,	MR/S: 88,	MS/S: 22704,	MR/S/U: 0.3,	MS/S/U: 87.7,	CPU: 40.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:43 GMT
+U: 262,	MR/S: 157,	MS/S: 40700,	MR/S/U: 0.5,	MS/S/U: 127,	CPU: 40.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:45 GMT
+U: 262,	MR/S: 187,	MS/S: 48994,	MR/S/U: 0.5,	MS/S/U: 122,	CPU: 41.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:45 GMT
+U: 262,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 41.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:46 GMT
+U: 264,	MR/S: 147,	MS/S: 38660,	MR/S/U: 0.5,	MS/S/U: 125,	CPU: 41.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:47 GMT
+U: 265,	MR/S: 114,	MS/S: 30185,	MR/S/U: 0.4,	MS/S/U: 113.9,	CPU: 41.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:49 GMT
+U: 266,	MR/S: 200,	MS/S: 53019,	MR/S/U: 0.5,	MS/S/U: 128,	CPU: 41.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:49 GMT
+U: 266,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 41.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:51 GMT
+U: 268,	MR/S: 168,	MS/S: 44860,	MR/S/U: 0.5,	MS/S/U: 134,	CPU: 41.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:51 GMT
+U: 268,	MR/S: 93,	MS/S: 24924,	MR/S/U: 0.3,	MS/S/U: 93,	CPU: 42.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:53 GMT
+U: 271,	MR/S: 171,	MS/S: 46204,	MR/S/U: 0.5,	MS/S/U: 135,	CPU: 42.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:54 GMT
+U: 271,	MR/S: 93,	MS/S: 25203,	MR/S/U: 0.1,	MS/S/U: 23,	CPU: 42.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:54 GMT
+U: 271,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 42.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:55 GMT
+U: 273,	MR/S: 187,	MS/S: 50677,	MR/S/U: 0.6,	MS/S/U: 152,	CPU: 42.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:56 GMT
+U: 273,	MR/S: 111,	MS/S: 30303,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 42.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:57 GMT
+U: 275,	MR/S: 80,	MS/S: 21842,	MR/S/U: 0.3,	MS/S/U: 79.4,	CPU: 43.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:59 GMT
+U: 276,	MR/S: 193,	MS/S: 53264,	MR/S/U: 0.5,	MS/S/U: 142,	CPU: 43.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:42:59 GMT
+U: 276,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:00 GMT
+U: 278,	MR/S: 128,	MS/S: 35479,	MR/S/U: 0.5,	MS/S/U: 127.6,	CPU: 43.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:01 GMT
+U: 278,	MR/S: 145,	MS/S: 40310,	MR/S/U: 0.3,	MS/S/U: 97,	CPU: 43.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:02 GMT
+U: 280,	MR/S: 99,	MS/S: 27719,	MR/S/U: 0.4,	MS/S/U: 99,	CPU: 43.7,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:04 GMT
+U: 282,	MR/S: 226,	MS/S: 63364,	MR/S/U: 0.5,	MS/S/U: 143,	CPU: 44.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:04 GMT
+U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 224.7,	CPU: 44.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:05 GMT
+U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:06 GMT
+U: 283,	MR/S: 160,	MS/S: 45279,	MR/S/U: 0.6,	MS/S/U: 160,	CPU: 44.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:07 GMT
+U: 284,	MR/S: 120,	MS/S: 34048,	MR/S/U: 0.4,	MS/S/U: 119.9,	CPU: 44.3,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:08 GMT
+U: 285,	MR/S: 104,	MS/S: 29640,	MR/S/U: 0.4,	MS/S/U: 104,	CPU: 44.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:09 GMT
+U: 286,	MR/S: 111,	MS/S: 31746,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 44.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:11 GMT
+U: 288,	MR/S: 204,	MS/S: 58418,	MR/S/U: 0.5,	MS/S/U: 132,	CPU: 44.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:11 GMT
+U: 288,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 44.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:14 GMT
+U: 289,	MR/S: 279,	MS/S: 80631,	MR/S/U: 0.6,	MS/S/U: 185,	CPU: 45.0,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:14 GMT
+U: 289,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 204,	CPU: 45.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:14 GMT
+U: 289,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 45.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:16 GMT
+U: 291,	MR/S: 261,	MS/S: 75429,	MR/S/U: 0.5,	MS/S/U: 158,	CPU: 45.4,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:16 GMT
+U: 291,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.9,	MS/S/U: 259.2,	CPU: 45.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:19 GMT
+U: 293,	MR/S: 248,	MS/S: 72174,	MR/S/U: 0.6,	MS/S/U: 176,	CPU: 45.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:19 GMT
+U: 293,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 246.3,	CPU: 45.9,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:19 GMT
+U: 293,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 45.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:21 GMT
+U: 293,	MR/S: 190,	MS/S: 55670,	MR/S/U: 0.4,	MS/S/U: 131,	CPU: 45.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:21 GMT
+U: 293,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 45.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:23 GMT
+U: 295,	MR/S: 221,	MS/S: 64777,	MR/S/U: 0.6,	MS/S/U: 180,	CPU: 46.2,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:23 GMT
+U: 295,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 46.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:24 GMT
+U: 295,	MR/S: 116,	MS/S: 34220,	MR/S/U: 0.4,	MS/S/U: 116,	CPU: 46.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:25 GMT
+U: 295,	MR/S: 86,	MS/S: 25370,	MR/S/U: 0.3,	MS/S/U: 86,	CPU: 46.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:26 GMT
+U: 296,	MR/S: 91,	MS/S: 26845,	MR/S/U: 0.3,	MS/S/U: 90.7,	CPU: 46.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:27 GMT
+U: 296,	MR/S: 119,	MS/S: 35224,	MR/S/U: 0.4,	MS/S/U: 119,	CPU: 46.5,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:28 GMT
+U: 296,	MR/S: 95,	MS/S: 28120,	MR/S/U: 0.3,	MS/S/U: 95,	CPU: 46.6,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:30 GMT
+U: 297,	MR/S: 197,	MS/S: 58509,	MR/S/U: 0.5,	MS/S/U: 136,	CPU: 46.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:30 GMT
+U: 297,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 46.8,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:32 GMT
+U: 299,	MR/S: 268,	MS/S: 79966,	MR/S/U: 0.6,	MS/S/U: 165,	CPU: 47.1,	Mem: 0.7
+Sat, 08 Dec 2012 21:43:32 GMT
+U: 299,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.9,	MS/S/U: 267.4,	CPU: 47.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:33 GMT
+U: 299,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 46.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:34 GMT
+U: 300,	MR/S: 188,	MS/S: 56399,	MR/S/U: 0.6,	MS/S/U: 188,	CPU: 47.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:35 GMT
+U: 300,	MR/S: 121,	MS/S: 36300,	MR/S/U: 0.4,	MS/S/U: 121,	CPU: 47.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:37 GMT
+U: 301,	MR/S: 111,	MS/S: 33407,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 47.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:38 GMT
+U: 302,	MR/S: 106,	MS/S: 32012,	MR/S/U: 0.4,	MS/S/U: 106,	CPU: 47.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:38 GMT
+U: 302,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 47.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:40 GMT
+U: 303,	MR/S: 219,	MS/S: 66197,	MR/S/U: 0.5,	MS/S/U: 157,	CPU: 47.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:40 GMT
+U: 303,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 47.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:42 GMT
+U: 305,	MR/S: 236,	MS/S: 71508,	MR/S/U: 0.6,	MS/S/U: 193,	CPU: 48.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:42 GMT
+U: 305,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 235.2,	CPU: 47.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:43 GMT
+U: 305,	MR/S: 100,	MS/S: 30500,	MR/S/U: 0.3,	MS/S/U: 100,	CPU: 48.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:45 GMT
+U: 305,	MR/S: 201,	MS/S: 61305,	MR/S/U: 0.2,	MS/S/U: 61,	CPU: 48.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:45 GMT
+U: 305,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 201,	CPU: 48.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:43:47 GMT
+U: 305,	MR/S: 176,	MS/S: 53680,	MR/S/U: 0.5,	MS/S/U: 144,	CPU: 48.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:47 GMT
+U: 305,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 48.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:43:49 GMT
+U: 305,	MR/S: 235,	MS/S: 71675,	MR/S/U: 0.5,	MS/S/U: 157,	CPU: 48.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:49 GMT
+U: 305,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 48.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:51 GMT
+U: 305,	MR/S: 188,	MS/S: 57340,	MR/S/U: 0.5,	MS/S/U: 150,	CPU: 48.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:51 GMT
+U: 305,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.6,	MS/S/U: 188,	CPU: 48.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:52 GMT
+U: 307,	MR/S: 129,	MS/S: 39592,	MR/S/U: 0.4,	MS/S/U: 129,	CPU: 48.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:53 GMT
+U: 308,	MR/S: 93,	MS/S: 28644,	MR/S/U: 0.3,	MS/S/U: 93,	CPU: 48.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:55 GMT
+U: 308,	MR/S: 192,	MS/S: 59136,	MR/S/U: 0.5,	MS/S/U: 150,	CPU: 48.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:55 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.6,	MS/S/U: 192,	CPU: 48.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:43:57 GMT
+U: 308,	MR/S: 206,	MS/S: 63448,	MR/S/U: 0.5,	MS/S/U: 154,	CPU: 48.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:57 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 206,	CPU: 49.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:59 GMT
+U: 308,	MR/S: 197,	MS/S: 60676,	MR/S/U: 0.5,	MS/S/U: 168,	CPU: 49.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:43:59 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.6,	MS/S/U: 197,	CPU: 49.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:01 GMT
+U: 308,	MR/S: 177,	MS/S: 54516,	MR/S/U: 0,	MS/S/U: 11,	CPU: 49.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:01 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.5,	MS/S/U: 169,	CPU: 49.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:03 GMT
+U: 308,	MR/S: 184,	MS/S: 56672,	MR/S/U: 0.5,	MS/S/U: 162,	CPU: 49.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:03 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 49.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:05 GMT
+U: 308,	MR/S: 200,	MS/S: 61600,	MR/S/U: 0.4,	MS/S/U: 128,	CPU: 49.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:05 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 49.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:07 GMT
+U: 308,	MR/S: 254,	MS/S: 78232,	MR/S/U: 0.5,	MS/S/U: 146,	CPU: 49.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:07 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 254,	CPU: 49.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:08 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 49.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:09 GMT
+U: 308,	MR/S: 173,	MS/S: 53284,	MR/S/U: 0.4,	MS/S/U: 135,	CPU: 49.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:11 GMT
+U: 308,	MR/S: 148,	MS/S: 45584,	MR/S/U: 0.3,	MS/S/U: 104,	CPU: 49.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:11 GMT
+U: 308,	MR/S: 56,	MS/S: 17248,	MR/S/U: 0.2,	MS/S/U: 56,	CPU: 49.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:12 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 49.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:14 GMT
+U: 308,	MR/S: 235,	MS/S: 72380,	MR/S/U: 0.6,	MS/S/U: 189,	CPU: 49.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:14 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 49.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:16 GMT
+U: 308,	MR/S: 211,	MS/S: 64988,	MR/S/U: 0.5,	MS/S/U: 144,	CPU: 50.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:16 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 49.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:18 GMT
+U: 308,	MR/S: 209,	MS/S: 64372,	MR/S/U: 0.6,	MS/S/U: 188,	CPU: 50.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:19 GMT
+U: 308,	MR/S: 102,	MS/S: 31416,	MR/S/U: 0,	MS/S/U: 1,	CPU: 50.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:19 GMT
+U: 308,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 50.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:21 GMT
+U: 307,	MR/S: 199,	MS/S: 61236,	MR/S/U: 0.5,	MS/S/U: 143,	CPU: 50.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:21 GMT
+U: 307,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 50.2,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:22 GMT
+U: 306,	MR/S: 124,	MS/S: 37945,	MR/S/U: 0.4,	MS/S/U: 124,	CPU: 50.3,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:23 GMT
+U: 305,	MR/S: 67,	MS/S: 20436,	MR/S/U: 0.2,	MS/S/U: 67,	CPU: 50.3,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:25 GMT
+U: 303,	MR/S: 222,	MS/S: 67278,	MR/S/U: 0.5,	MS/S/U: 160,	CPU: 50.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:25 GMT
+U: 303,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 50.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:26 GMT
+U: 303,	MR/S: 82,	MS/S: 24846,	MR/S/U: 0.3,	MS/S/U: 82,	CPU: 50.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:28 GMT
+U: 303,	MR/S: 215,	MS/S: 65145,	MR/S/U: 0.5,	MS/S/U: 140,	CPU: 50.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:44:28 GMT
+U: 303,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 50.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:30 GMT
+U: 301,	MR/S: 193,	MS/S: 58103,	MR/S/U: 0.5,	MS/S/U: 136,	CPU: 50.7,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:30 GMT
+U: 301,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 50.7,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:32 GMT
+U: 300,	MR/S: 212,	MS/S: 63602,	MR/S/U: 0.6,	MS/S/U: 167,	CPU: 50.9,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:32 GMT
+U: 300,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 50.8,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:33 GMT
+U: 300,	MR/S: 130,	MS/S: 39000,	MR/S/U: 0.4,	MS/S/U: 130,	CPU: 50.9,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:34 GMT
+U: 300,	MR/S: 101,	MS/S: 30300,	MR/S/U: 0.3,	MS/S/U: 101,	CPU: 51.0,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:36 GMT
+U: 299,	MR/S: 202,	MS/S: 60567,	MR/S/U: 0.6,	MS/S/U: 169,	CPU: 51.0,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:36 GMT
+U: 299,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 202.6,	CPU: 51.0,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:38 GMT
+U: 297,	MR/S: 185,	MS/S: 55137,	MR/S/U: 0,	MS/S/U: 7,	CPU: 50.9,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:38 GMT
+U: 297,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.6,	MS/S/U: 185.6,	CPU: 51.1,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:40 GMT
+U: 296,	MR/S: 139,	MS/S: 41283,	MR/S/U: 0.5,	MS/S/U: 139,	CPU: 51.2,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:40 GMT
+U: 296,	MR/S: 73,	MS/S: 21608,	MR/S/U: 0.2,	MS/S/U: 73,	CPU: 51.2,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:42 GMT
+U: 295,	MR/S: 207,	MS/S: 61065,	MR/S/U: 0.6,	MS/S/U: 170,	CPU: 51.2,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:42 GMT
+U: 295,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 207,	CPU: 51.3,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:43 GMT
+U: 295,	MR/S: 105,	MS/S: 30975,	MR/S/U: 0.4,	MS/S/U: 105,	CPU: 51.3,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:45 GMT
+U: 294,	MR/S: 127,	MS/S: 37465,	MR/S/U: 0.4,	MS/S/U: 127,	CPU: 51.4,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:45 GMT
+U: 294,	MR/S: 96,	MS/S: 28224,	MR/S/U: 0.3,	MS/S/U: 96,	CPU: 51.5,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:46 GMT
+U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 51.3,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:48 GMT
+U: 292,	MR/S: 208,	MS/S: 60736,	MR/S/U: 0.6,	MS/S/U: 163,	CPU: 51.4,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:48 GMT
+U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 51.3,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:50 GMT
+U: 292,	MR/S: 215,	MS/S: 62780,	MR/S/U: 0.5,	MS/S/U: 149,	CPU: 51.5,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:50 GMT
+U: 291,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 51.5,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:52 GMT
+U: 290,	MR/S: 201,	MS/S: 58445,	MR/S/U: 0.5,	MS/S/U: 155.5,	CPU: 51.6,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:52 GMT
+U: 290,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 51.5,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:53 GMT
+U: 290,	MR/S: 170,	MS/S: 49300,	MR/S/U: 0.5,	MS/S/U: 159,	CPU: 51.7,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:55 GMT
+U: 290,	MR/S: 200,	MS/S: 58000,	MR/S/U: 0.5,	MS/S/U: 146,	CPU: 51.9,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:55 GMT
+U: 290,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 200,	CPU: 51.8,	Mem: 0.9
+Sat, 08 Dec 2012 21:44:56 GMT
+U: 287,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 51.6,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:57 GMT
+U: 287,	MR/S: 185,	MS/S: 53095,	MR/S/U: 0.6,	MS/S/U: 170,	CPU: 51.8,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:44:58 GMT
+U: 287,	MR/S: 126,	MS/S: 36162,	MR/S/U: 0.4,	MS/S/U: 126,	CPU: 51.9,	Mem: 0.9
+Sat, 08 Dec 2012 21:45:00 GMT
+U: 286,	MR/S: 108,	MS/S: 30996,	MR/S/U: 0.4,	MS/S/U: 108,	CPU: 52.0,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:00 GMT
+U: 286,	MR/S: 99,	MS/S: 28314,	MR/S/U: 0.3,	MS/S/U: 99,	CPU: 52.0,	Mem: 0.9
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:02 GMT
+U: 284,	MR/S: 225,	MS/S: 64214,	MR/S/U: 0.5,	MS/S/U: 157,	CPU: 52.0,	Mem: 0.9
+Sat, 08 Dec 2012 21:45:02 GMT
+U: 284,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 226.1,	CPU: 52.1,	Mem: 0.9
+Sat, 08 Dec 2012 21:45:03 GMT
+U: 284,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 51.9,	Mem: 0.9
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:05 GMT
+U: 284,	MR/S: 208,	MS/S: 59072,	MR/S/U: 0.7,	MS/S/U: 186,	CPU: 52.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:05 GMT
+U: 283,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:06 GMT
+U: 282,	MR/S: 117,	MS/S: 33111,	MR/S/U: 0.4,	MS/S/U: 117.4,	CPU: 52.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:07 GMT
+U: 282,	MR/S: 72,	MS/S: 20304,	MR/S/U: 0.3,	MS/S/U: 72,	CPU: 52.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:09 GMT
+U: 282,	MR/S: 214,	MS/S: 60348,	MR/S/U: 0.5,	MS/S/U: 150,	CPU: 52.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:09 GMT
+U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:11 GMT
+U: 282,	MR/S: 190,	MS/S: 53580,	MR/S/U: 0.7,	MS/S/U: 190,	CPU: 52.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:11 GMT
+U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:13 GMT
+U: 282,	MR/S: 219,	MS/S: 61758,	MR/S/U: 0.7,	MS/S/U: 190,	CPU: 52.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:14 GMT
+U: 282,	MR/S: 122,	MS/S: 34404,	MR/S/U: 0.4,	MS/S/U: 122,	CPU: 52.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:14 GMT
+U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:15 GMT
+U: 282,	MR/S: 106,	MS/S: 29892,	MR/S/U: 0.4,	MS/S/U: 106,	CPU: 52.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:16 GMT
+U: 282,	MR/S: 129,	MS/S: 36378,	MR/S/U: 0.5,	MS/S/U: 129,	CPU: 52.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:17 GMT
+U: 282,	MR/S: 111,	MS/S: 31302,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 52.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:18 GMT
+U: 279,	MR/S: 107,	MS/S: 30174,	MR/S/U: 0.4,	MS/S/U: 107,	CPU: 52.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:19 GMT
+U: 279,	MR/S: 86,	MS/S: 23994,	MR/S/U: 0.3,	MS/S/U: 86,	CPU: 52.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:21 GMT
+U: 279,	MR/S: 215,	MS/S: 59985,	MR/S/U: 0.5,	MS/S/U: 137,	CPU: 52.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:21 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:22 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:24 GMT
+U: 279,	MR/S: 279,	MS/S: 77841,	MR/S/U: 0.7,	MS/S/U: 198,	CPU: 52.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:24 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:26 GMT
+U: 279,	MR/S: 191,	MS/S: 53289,	MR/S/U: 0.6,	MS/S/U: 156,	CPU: 52.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:27 GMT
+U: 279,	MR/S: 97,	MS/S: 27063,	MR/S/U: 0.3,	MS/S/U: 97,	CPU: 52.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:27 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:29 GMT
+U: 279,	MR/S: 192,	MS/S: 53568,	MR/S/U: 0.6,	MS/S/U: 156,	CPU: 52.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:30 GMT
+U: 279,	MR/S: 118,	MS/S: 32922,	MR/S/U: 0,	MS/S/U: 5,	CPU: 52.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:30 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:31 GMT
+U: 279,	MR/S: 114,	MS/S: 31806,	MR/S/U: 0.4,	MS/S/U: 114,	CPU: 52.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:32 GMT
+U: 279,	MR/S: 120,	MS/S: 33480,	MR/S/U: 0.4,	MS/S/U: 120,	CPU: 52.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:34 GMT
+U: 279,	MR/S: 214,	MS/S: 59706,	MR/S/U: 0.6,	MS/S/U: 155,	CPU: 53.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:34 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:35 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:37 GMT
+U: 279,	MR/S: 224,	MS/S: 62496,	MR/S/U: 0.7,	MS/S/U: 187,	CPU: 53.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:37 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:38 GMT
+U: 279,	MR/S: 209,	MS/S: 58311,	MR/S/U: 0.7,	MS/S/U: 209,	CPU: 53.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:39 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 52.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:41 GMT
+U: 279,	MR/S: 201,	MS/S: 56079,	MR/S/U: 0.6,	MS/S/U: 173,	CPU: 53.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:42 GMT
+U: 279,	MR/S: 108,	MS/S: 30132,	MR/S/U: 0.4,	MS/S/U: 108,	CPU: 53.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:42 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:44 GMT
+U: 279,	MR/S: 231,	MS/S: 64449,	MR/S/U: 0.8,	MS/S/U: 231,	CPU: 53.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:44 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:46 GMT
+U: 279,	MR/S: 206,	MS/S: 57474,	MR/S/U: 0.7,	MS/S/U: 182,	CPU: 53.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:46 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:47 GMT
+U: 279,	MR/S: 114,	MS/S: 31806,	MR/S/U: 0.4,	MS/S/U: 114,	CPU: 53.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:48 GMT
+U: 279,	MR/S: 67,	MS/S: 18693,	MR/S/U: 0.2,	MS/S/U: 67,	CPU: 53.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:50 GMT
+U: 279,	MR/S: 211,	MS/S: 58869,	MR/S/U: 0.5,	MS/S/U: 138,	CPU: 53.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:50 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:52 GMT
+U: 279,	MR/S: 196,	MS/S: 54684,	MR/S/U: 0.5,	MS/S/U: 146,	CPU: 53.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:52 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:54 GMT
+U: 279,	MR/S: 201,	MS/S: 56079,	MR/S/U: 0.6,	MS/S/U: 158,	CPU: 53.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:55 GMT
+U: 279,	MR/S: 106,	MS/S: 29574,	MR/S/U: 0.1,	MS/S/U: 19,	CPU: 53.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:55 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:57 GMT
+U: 279,	MR/S: 235,	MS/S: 65565,	MR/S/U: 0.5,	MS/S/U: 147,	CPU: 53.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:57 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:45:59 GMT
+U: 279,	MR/S: 214,	MS/S: 59706,	MR/S/U: 0.6,	MS/S/U: 163,	CPU: 53.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:45:59 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 214,	CPU: 53.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:00 GMT
+U: 279,	MR/S: 95,	MS/S: 26505,	MR/S/U: 0.3,	MS/S/U: 95,	CPU: 53.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:02 GMT
+U: 279,	MR/S: 176,	MS/S: 49104,	MR/S/U: 0.5,	MS/S/U: 139,	CPU: 53.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:02 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:03 GMT
+U: 279,	MR/S: 124,	MS/S: 34596,	MR/S/U: 0.4,	MS/S/U: 124,	CPU: 53.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:04 GMT
+U: 279,	MR/S: 102,	MS/S: 28458,	MR/S/U: 0.4,	MS/S/U: 102,	CPU: 53.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:05 GMT
+U: 279,	MR/S: 138,	MS/S: 38502,	MR/S/U: 0.5,	MS/S/U: 138,	CPU: 53.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:07 GMT
+U: 279,	MR/S: 116,	MS/S: 32364,	MR/S/U: 0.4,	MS/S/U: 116,	CPU: 53.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:07 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:09 GMT
+U: 279,	MR/S: 187,	MS/S: 52173,	MR/S/U: 0.4,	MS/S/U: 122,	CPU: 53.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:09 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:11 GMT
+U: 279,	MR/S: 223,	MS/S: 62217,	MR/S/U: 0.6,	MS/S/U: 169,	CPU: 53.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:11 GMT
+U: 279,	MR/S: 87,	MS/S: 24273,	MR/S/U: 0.3,	MS/S/U: 87,	CPU: 53.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:12 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:13 GMT
+U: 279,	MR/S: 186,	MS/S: 51894,	MR/S/U: 0.6,	MS/S/U: 163,	CPU: 53.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:15 GMT
+U: 279,	MR/S: 132,	MS/S: 36828,	MR/S/U: 0.5,	MS/S/U: 132,	CPU: 53.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:15 GMT
+U: 279,	MR/S: 72,	MS/S: 20088,	MR/S/U: 0.3,	MS/S/U: 72,	CPU: 53.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:16 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:18 GMT
+U: 279,	MR/S: 279,	MS/S: 77841,	MR/S/U: 0.6,	MS/S/U: 173,	CPU: 53.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:18 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:21 GMT
+U: 279,	MR/S: 247,	MS/S: 68913,	MR/S/U: 0,	MS/S/U: 1,	CPU: 53.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:21 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.9,	MS/S/U: 247,	CPU: 54.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:21 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:23 GMT
+U: 279,	MR/S: 240,	MS/S: 66960,	MR/S/U: 0.6,	MS/S/U: 159,	CPU: 54.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:23 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:25 GMT
+U: 279,	MR/S: 202,	MS/S: 56358,	MR/S/U: 0.5,	MS/S/U: 143,	CPU: 54.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:25 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:27 GMT
+U: 279,	MR/S: 231,	MS/S: 64449,	MR/S/U: 0.6,	MS/S/U: 178,	CPU: 54.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:27 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.8,	MS/S/U: 231,	CPU: 54.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:28 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 53.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:29 GMT
+U: 279,	MR/S: 184,	MS/S: 51336,	MR/S/U: 0.6,	MS/S/U: 160,	CPU: 54.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:30 GMT
+U: 279,	MR/S: 104,	MS/S: 29016,	MR/S/U: 0.4,	MS/S/U: 104,	CPU: 54.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:32 GMT
+U: 279,	MR/S: 203,	MS/S: 56637,	MR/S/U: 0.5,	MS/S/U: 144,	CPU: 54.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:32 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 203,	CPU: 54.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:34 GMT
+U: 279,	MR/S: 122,	MS/S: 34038,	MR/S/U: 0.4,	MS/S/U: 122,	CPU: 54.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:34 GMT
+U: 279,	MR/S: 90,	MS/S: 25110,	MR/S/U: 0.3,	MS/S/U: 90,	CPU: 54.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:36 GMT
+U: 279,	MR/S: 201,	MS/S: 56079,	MR/S/U: 0.5,	MS/S/U: 147,	CPU: 54.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:36 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 201,	CPU: 54.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:38 GMT
+U: 279,	MR/S: 208,	MS/S: 58032,	MR/S/U: 0.5,	MS/S/U: 140,	CPU: 54.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:38 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 208,	CPU: 54.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:39 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:41 GMT
+U: 279,	MR/S: 214,	MS/S: 59706,	MR/S/U: 0.7,	MS/S/U: 186,	CPU: 54.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:41 GMT
+U: 279,	MR/S: 91,	MS/S: 25389,	MR/S/U: 0.3,	MS/S/U: 91,	CPU: 54.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:42 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.2,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:43 GMT
+U: 279,	MR/S: 188,	MS/S: 52452,	MR/S/U: 0.5,	MS/S/U: 151,	CPU: 54.3,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:44 GMT
+U: 279,	MR/S: 112,	MS/S: 31248,	MR/S/U: 0.4,	MS/S/U: 112,	CPU: 54.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:46 GMT
+U: 279,	MR/S: 107,	MS/S: 29853,	MR/S/U: 0.4,	MS/S/U: 107,	CPU: 54.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:47 GMT
+U: 279,	MR/S: 125,	MS/S: 34875,	MR/S/U: 0.4,	MS/S/U: 125,	CPU: 54.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:47 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.3,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:48 GMT
+U: 279,	MR/S: 125,	MS/S: 34875,	MR/S/U: 0.4,	MS/S/U: 125,	CPU: 54.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:49 GMT
+U: 279,	MR/S: 83,	MS/S: 23157,	MR/S/U: 0.3,	MS/S/U: 83,	CPU: 54.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:51 GMT
+U: 279,	MR/S: 209,	MS/S: 58311,	MR/S/U: 0.5,	MS/S/U: 135,	CPU: 54.4,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:51 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:53 GMT
+U: 279,	MR/S: 188,	MS/S: 52452,	MR/S/U: 0.5,	MS/S/U: 152,	CPU: 54.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:53 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.4,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:55 GMT
+U: 279,	MR/S: 214,	MS/S: 59706,	MR/S/U: 0.6,	MS/S/U: 172,	CPU: 54.5,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:55 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:56 GMT
+U: 279,	MR/S: 132,	MS/S: 36828,	MR/S/U: 0.5,	MS/S/U: 132,	CPU: 54.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:57 GMT
+U: 279,	MR/S: 111,	MS/S: 30969,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 54.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:46:59 GMT
+U: 279,	MR/S: 128,	MS/S: 35712,	MR/S/U: 0.5,	MS/S/U: 128,	CPU: 54.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:46:59 GMT
+U: 279,	MR/S: 98,	MS/S: 27342,	MR/S/U: 0.4,	MS/S/U: 98,	CPU: 54.6,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:00 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:01 GMT
+U: 279,	MR/S: 198,	MS/S: 55242,	MR/S/U: 0.7,	MS/S/U: 198,	CPU: 54.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:02 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:03 GMT
+U: 279,	MR/S: 192,	MS/S: 53568,	MR/S/U: 0.7,	MS/S/U: 192,	CPU: 54.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:04 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.5,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:05 GMT
+U: 279,	MR/S: 193,	MS/S: 53847,	MR/S/U: 0.6,	MS/S/U: 170,	CPU: 54.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:06 GMT
+U: 279,	MR/S: 112,	MS/S: 31248,	MR/S/U: 0.4,	MS/S/U: 112,	CPU: 54.7,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:07 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:08 GMT
+U: 279,	MR/S: 196,	MS/S: 54684,	MR/S/U: 0.7,	MS/S/U: 196,	CPU: 54.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:10 GMT
+U: 279,	MR/S: 127,	MS/S: 35433,	MR/S/U: 0.5,	MS/S/U: 127,	CPU: 54.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:10 GMT
+U: 279,	MR/S: 71,	MS/S: 19809,	MR/S/U: 0.3,	MS/S/U: 71,	CPU: 54.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:11 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.6,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:12 GMT
+U: 279,	MR/S: 195,	MS/S: 54405,	MR/S/U: 0.6,	MS/S/U: 159,	CPU: 54.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:13 GMT
+U: 279,	MR/S: 111,	MS/S: 30969,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 54.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:15 GMT
+U: 279,	MR/S: 197,	MS/S: 54963,	MR/S/U: 0.5,	MS/S/U: 132,	CPU: 54.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:15 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0.7,	MS/S/U: 197,	CPU: 54.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:16 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.7,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:18 GMT
+U: 279,	MR/S: 247,	MS/S: 68913,	MR/S/U: 0.6,	MS/S/U: 174,	CPU: 54.8,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:18 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:20 GMT
+U: 279,	MR/S: 192,	MS/S: 53568,	MR/S/U: 0.5,	MS/S/U: 146,	CPU: 54.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:21 GMT
+U: 279,	MR/S: 110,	MS/S: 30690,	MR/S/U: 0.4,	MS/S/U: 110,	CPU: 55.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:21 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.8,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:23 GMT
+U: 279,	MR/S: 212,	MS/S: 59148,	MR/S/U: 0.5,	MS/S/U: 142,	CPU: 54.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:23 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:25 GMT
+U: 279,	MR/S: 220,	MS/S: 61380,	MR/S/U: 0.6,	MS/S/U: 170,	CPU: 55.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:25 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.9,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:26 GMT
+U: 279,	MR/S: 125,	MS/S: 34875,	MR/S/U: 0.4,	MS/S/U: 125,	CPU: 55.0,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:28 GMT
+U: 279,	MR/S: 119,	MS/S: 33201,	MR/S/U: 0.4,	MS/S/U: 119,	CPU: 55.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:29 GMT
+U: 279,	MR/S: 102,	MS/S: 28458,	MR/S/U: 0.4,	MS/S/U: 102,	CPU: 55.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:29 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 54.9,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:30 GMT
+U: 279,	MR/S: 208,	MS/S: 58032,	MR/S/U: 0.7,	MS/S/U: 208,	CPU: 55.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:31 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 55.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:33 GMT
+U: 279,	MR/S: 222,	MS/S: 61938,	MR/S/U: 0.7,	MS/S/U: 196,	CPU: 55.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:33 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 55.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:35 GMT
+U: 279,	MR/S: 153,	MS/S: 42687,	MR/S/U: 0.5,	MS/S/U: 143,	CPU: 55.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:36 GMT
+U: 279,	MR/S: 147,	MS/S: 41013,	MR/S/U: 0.5,	MS/S/U: 146,	CPU: 55.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:36 GMT
+U: 279,	MR/S: 83,	MS/S: 23157,	MR/S/U: 0.3,	MS/S/U: 83,	CPU: 55.2,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:37 GMT
+U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 55.0,	Mem: 0.8
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:39 GMT
+U: 279,	MR/S: 189,	MS/S: 52731,	MR/S/U: 0.5,	MS/S/U: 149,	CPU: 55.1,	Mem: 0.8
+warn: client not handshaken client should reconnect
+Sat, 08 Dec 2012 21:47:39 GMT
+U: 73,	MR/S: 21,	MS/S: 5525,	MR/S/U: 0.3,	MS/S/U: 75.7,	CPU: 55.1,	Mem: 0.8
+Sat, 08 Dec 2012 21:47:40 GMT
+U: 73,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 55.0,	Mem: 0.8
