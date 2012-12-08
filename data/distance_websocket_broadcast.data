@@ -1,0 +1,311 @@
+info: socket.io started
+Sat Dec 08 2012 14:54:27 GMT-0500 (EST),	U: 1,	MR/S: 1,	MS/S: 1,	MR/S/U: 1,	MS/S/U: 1,	CPU: 15.0,	Mem: 0.2
+Sat Dec 08 2012 14:54:28 GMT-0500 (EST),	U: 3,	MR/S: 3,	MS/S: 8,	MR/S/U: 1,	MS/S/U: 2.7,	CPU: 10.0,	Mem: 0.2
+Sat Dec 08 2012 14:54:29 GMT-0500 (EST),	U: 5,	MR/S: 5,	MS/S: 23,	MR/S/U: 1,	MS/S/U: 4.6,	CPU: 7.6,	Mem: 0.2
+Sat Dec 08 2012 14:54:30 GMT-0500 (EST),	U: 7,	MR/S: 7,	MS/S: 46,	MR/S/U: 1,	MS/S/U: 6.6,	CPU: 6.2,	Mem: 0.2
+Sat Dec 08 2012 14:54:31 GMT-0500 (EST),	U: 9,	MR/S: 9,	MS/S: 77,	MR/S/U: 1,	MS/S/U: 8.6,	CPU: 5.6,	Mem: 0.2
+Sat Dec 08 2012 14:54:32 GMT-0500 (EST),	U: 11,	MR/S: 11,	MS/S: 114,	MR/S/U: 0.9,	MS/S/U: 9.4,	CPU: 5.3,	Mem: 0.2
+Sat Dec 08 2012 14:54:33 GMT-0500 (EST),	U: 13,	MR/S: 13,	MS/S: 163,	MR/S/U: 0.9,	MS/S/U: 11.5,	CPU: 5.1,	Mem: 0.2
+Sat Dec 08 2012 14:54:34 GMT-0500 (EST),	U: 15,	MR/S: 15,	MS/S: 218,	MR/S/U: 0.9,	MS/S/U: 13.5,	CPU: 5.2,	Mem: 0.2
+Sat Dec 08 2012 14:54:35 GMT-0500 (EST),	U: 17,	MR/S: 17,	MS/S: 281,	MR/S/U: 0.9,	MS/S/U: 15.5,	CPU: 5.2,	Mem: 0.2
+Sat Dec 08 2012 14:54:36 GMT-0500 (EST),	U: 19,	MR/S: 18,	MS/S: 329,	MR/S/U: 0.9,	MS/S/U: 17.3,	CPU: 5.4,	Mem: 0.2
+Sat Dec 08 2012 14:54:37 GMT-0500 (EST),	U: 21,	MR/S: 21,	MS/S: 429,	MR/S/U: 1,	MS/S/U: 20.4,	CPU: 5.5,	Mem: 0.2
+Sat Dec 08 2012 14:54:38 GMT-0500 (EST),	U: 23,	MR/S: 23,	MS/S: 516,	MR/S/U: 1,	MS/S/U: 22.4,	CPU: 5.9,	Mem: 0.2
+Sat Dec 08 2012 14:54:39 GMT-0500 (EST),	U: 25,	MR/S: 25,	MS/S: 611,	MR/S/U: 1,	MS/S/U: 24.4,	CPU: 6.3,	Mem: 0.2
+Sat Dec 08 2012 14:54:40 GMT-0500 (EST),	U: 27,	MR/S: 27,	MS/S: 714,	MR/S/U: 1,	MS/S/U: 26.4,	CPU: 6.6,	Mem: 0.3
+Sat Dec 08 2012 14:54:41 GMT-0500 (EST),	U: 29,	MR/S: 29,	MS/S: 825,	MR/S/U: 1,	MS/S/U: 28.4,	CPU: 7.0,	Mem: 0.3
+Sat Dec 08 2012 14:54:42 GMT-0500 (EST),	U: 31,	MR/S: 31,	MS/S: 944,	MR/S/U: 1,	MS/S/U: 30.5,	CPU: 7.3,	Mem: 0.3
+Sat Dec 08 2012 14:54:43 GMT-0500 (EST),	U: 33,	MR/S: 33,	MS/S: 1071,	MR/S/U: 1,	MS/S/U: 31.5,	CPU: 7.7,	Mem: 0.3
+Sat Dec 08 2012 14:54:44 GMT-0500 (EST),	U: 35,	MR/S: 35,	MS/S: 1206,	MR/S/U: 0.9,	MS/S/U: 32.5,	CPU: 8.2,	Mem: 0.3
+Sat Dec 08 2012 14:54:45 GMT-0500 (EST),	U: 37,	MR/S: 36,	MS/S: 1312,	MR/S/U: 0.9,	MS/S/U: 34.5,	CPU: 8.7,	Mem: 0.3
+Sat Dec 08 2012 14:54:46 GMT-0500 (EST),	U: 39,	MR/S: 38,	MS/S: 1459,	MR/S/U: 0.9,	MS/S/U: 36.4,	CPU: 9.4,	Mem: 0.3
+Sat Dec 08 2012 14:54:47 GMT-0500 (EST),	U: 41,	MR/S: 41,	MS/S: 1655,	MR/S/U: 0.9,	MS/S/U: 37.4,	CPU: 9.9,	Mem: 0.3
+Sat Dec 08 2012 14:54:48 GMT-0500 (EST),	U: 43,	MR/S: 41,	MS/S: 1736,	MR/S/U: 0.9,	MS/S/U: 38.4,	CPU: 10.4,	Mem: 0.3
+Sat Dec 08 2012 14:54:49 GMT-0500 (EST),	U: 45,	MR/S: 44,	MS/S: 1948,	MR/S/U: 0.9,	MS/S/U: 40.3,	CPU: 10.9,	Mem: 0.3
+Sat Dec 08 2012 14:54:50 GMT-0500 (EST),	U: 47,	MR/S: 41,	MS/S: 1892,	MR/S/U: 0.8,	MS/S/U: 37.3,	CPU: 11.4,	Mem: 0.3
+Sat Dec 08 2012 14:54:51 GMT-0500 (EST),	U: 49,	MR/S: 48,	MS/S: 2304,	MR/S/U: 0.9,	MS/S/U: 44,	CPU: 11.9,	Mem: 0.3
+Sat Dec 08 2012 14:54:52 GMT-0500 (EST),	U: 51,	MR/S: 49,	MS/S: 2448,	MR/S/U: 0.9,	MS/S/U: 46,	CPU: 12.6,	Mem: 0.3
+Sat Dec 08 2012 14:54:53 GMT-0500 (EST),	U: 53,	MR/S: 53,	MS/S: 2753,	MR/S/U: 1,	MS/S/U: 49.9,	CPU: 13.3,	Mem: 0.3
+Sat Dec 08 2012 14:54:54 GMT-0500 (EST),	U: 55,	MR/S: 53,	MS/S: 2858,	MR/S/U: 1,	MS/S/U: 52,	CPU: 14.0,	Mem: 0.3
+Sat Dec 08 2012 14:54:55 GMT-0500 (EST),	U: 57,	MR/S: 57,	MS/S: 3187,	MR/S/U: 1,	MS/S/U: 55.9,	CPU: 14.8,	Mem: 0.4
+Sat Dec 08 2012 14:54:56 GMT-0500 (EST),	U: 59,	MR/S: 59,	MS/S: 3418,	MR/S/U: 1,	MS/S/U: 57.9,	CPU: 15.4,	Mem: 0.4
+Sat Dec 08 2012 14:54:57 GMT-0500 (EST),	U: 61,	MR/S: 61,	MS/S: 3657,	MR/S/U: 1,	MS/S/U: 59,	CPU: 16.1,	Mem: 0.4
+Sat Dec 08 2012 14:54:58 GMT-0500 (EST),	U: 63,	MR/S: 63,	MS/S: 3904,	MR/S/U: 1,	MS/S/U: 60,	CPU: 16.9,	Mem: 0.4
+Sat Dec 08 2012 14:54:59 GMT-0500 (EST),	U: 65,	MR/S: 63,	MS/S: 4030,	MR/S/U: 0.9,	MS/S/U: 60,	CPU: 17.6,	Mem: 0.4
+Sat Dec 08 2012 14:55:00 GMT-0500 (EST),	U: 67,	MR/S: 66,	MS/S: 4352,	MR/S/U: 1,	MS/S/U: 63,	CPU: 18.5,	Mem: 0.4
+Sat Dec 08 2012 14:55:01 GMT-0500 (EST),	U: 69,	MR/S: 68,	MS/S: 4619,	MR/S/U: 1,	MS/S/U: 64.9,	CPU: 19.3,	Mem: 0.4
+Sat Dec 08 2012 14:55:02 GMT-0500 (EST),	U: 70,	MR/S: 67,	MS/S: 4669,	MR/S/U: 0.9,	MS/S/U: 65.7,	CPU: 20.1,	Mem: 0.4
+Sat Dec 08 2012 14:55:03 GMT-0500 (EST),	U: 73,	MR/S: 71,	MS/S: 5073,	MR/S/U: 0.9,	MS/S/U: 67.5,	CPU: 21.0,	Mem: 0.4
+Sat Dec 08 2012 14:55:04 GMT-0500 (EST),	U: 75,	MR/S: 72,	MS/S: 5318,	MR/S/U: 0.9,	MS/S/U: 68.9,	CPU: 21.8,	Mem: 0.4
+Sat Dec 08 2012 14:55:05 GMT-0500 (EST),	U: 77,	MR/S: 75,	MS/S: 5684,	MR/S/U: 0.9,	MS/S/U: 71.8,	CPU: 22.5,	Mem: 0.4
+Sat Dec 08 2012 14:55:06 GMT-0500 (EST),	U: 79,	MR/S: 77,	MS/S: 5998,	MR/S/U: 0.9,	MS/S/U: 73.9,	CPU: 23.2,	Mem: 0.4
+Sat Dec 08 2012 14:55:07 GMT-0500 (EST),	U: 81,	MR/S: 79,	MS/S: 6315,	MR/S/U: 1,	MS/S/U: 77,	CPU: 23.9,	Mem: 0.4
+Sat Dec 08 2012 14:55:08 GMT-0500 (EST),	U: 83,	MR/S: 80,	MS/S: 6551,	MR/S/U: 0.9,	MS/S/U: 76.9,	CPU: 24.6,	Mem: 0.5
+Sat Dec 08 2012 14:55:09 GMT-0500 (EST),	U: 85,	MR/S: 81,	MS/S: 6787,	MR/S/U: 0.9,	MS/S/U: 77.8,	CPU: 25.2,	Mem: 0.5
+Sat Dec 08 2012 14:55:10 GMT-0500 (EST),	U: 86,	MR/S: 79,	MS/S: 6768,	MR/S/U: 0.9,	MS/S/U: 77.7,	CPU: 25.7,	Mem: 0.6
+Sat Dec 08 2012 14:55:11 GMT-0500 (EST),	U: 89,	MR/S: 83,	MS/S: 7268,	MR/S/U: 0.9,	MS/S/U: 79.7,	CPU: 26.2,	Mem: 0.6
+Sat Dec 08 2012 14:55:12 GMT-0500 (EST),	U: 91,	MR/S: 85,	MS/S: 7635,	MR/S/U: 0.8,	MS/S/U: 75.9,	CPU: 26.7,	Mem: 0.6
+Sat Dec 08 2012 14:55:13 GMT-0500 (EST),	U: 93,	MR/S: 85,	MS/S: 7770,	MR/S/U: 0.9,	MS/S/U: 81.5,	CPU: 27.1,	Mem: 0.6
+Sat Dec 08 2012 14:55:14 GMT-0500 (EST),	U: 94,	MR/S: 88,	MS/S: 8246,	MR/S/U: 0.9,	MS/S/U: 85.7,	CPU: 27.6,	Mem: 0.6
+Sat Dec 08 2012 14:55:15 GMT-0500 (EST),	U: 97,	MR/S: 92,	MS/S: 8804,	MR/S/U: 0.9,	MS/S/U: 82.8,	CPU: 28.0,	Mem: 0.6
+Sat Dec 08 2012 14:55:16 GMT-0500 (EST),	U: 99,	MR/S: 80,	MS/S: 7828,	MR/S/U: 0.8,	MS/S/U: 77.1,	CPU: 28.3,	Mem: 0.6
+Sat Dec 08 2012 14:55:17 GMT-0500 (EST),	U: 101,	MR/S: 96,	MS/S: 9569,	MR/S/U: 1,	MS/S/U: 94.7,	CPU: 28.8,	Mem: 0.6
+Sat Dec 08 2012 14:55:18 GMT-0500 (EST),	U: 103,	MR/S: 96,	MS/S: 9745,	MR/S/U: 0.9,	MS/S/U: 92.6,	CPU: 29.4,	Mem: 0.6
+Sat Dec 08 2012 14:55:19 GMT-0500 (EST),	U: 104,	MR/S: 99,	MS/S: 10273,	MR/S/U: 0.9,	MS/S/U: 96.8,	CPU: 29.8,	Mem: 0.6
+Sat Dec 08 2012 14:55:20 GMT-0500 (EST),	U: 107,	MR/S: 89,	MS/S: 9407,	MR/S/U: 0.8,	MS/S/U: 85.9,	CPU: 30.2,	Mem: 0.6
+Sat Dec 08 2012 14:55:21 GMT-0500 (EST),	U: 109,	MR/S: 100,	MS/S: 10771,	MR/S/U: 0.9,	MS/S/U: 95.8,	CPU: 30.6,	Mem: 0.6
+Sat Dec 08 2012 14:55:22 GMT-0500 (EST),	U: 111,	MR/S: 101,	MS/S: 11096,	MR/S/U: 0.9,	MS/S/U: 99,	CPU: 30.9,	Mem: 0.6
+Sat Dec 08 2012 14:55:23 GMT-0500 (EST),	U: 113,	MR/S: 104,	MS/S: 11587,	MR/S/U: 0.9,	MS/S/U: 95.5,	CPU: 31.2,	Mem: 0.6
+Sat Dec 08 2012 14:55:24 GMT-0500 (EST),	U: 115,	MR/S: 102,	MS/S: 11614,	MR/S/U: 0.9,	MS/S/U: 100,	CPU: 31.6,	Mem: 0.6
+Sat Dec 08 2012 14:55:25 GMT-0500 (EST),	U: 117,	MR/S: 110,	MS/S: 12741,	MR/S/U: 0.9,	MS/S/U: 102.9,	CPU: 32.0,	Mem: 0.6
+Sat Dec 08 2012 14:55:26 GMT-0500 (EST),	U: 119,	MR/S: 99,	MS/S: 11671,	MR/S/U: 0.8,	MS/S/U: 97.1,	CPU: 32.4,	Mem: 0.6
+Sat Dec 08 2012 14:55:27 GMT-0500 (EST),	U: 121,	MR/S: 103,	MS/S: 12318,	MR/S/U: 0.8,	MS/S/U: 97.8,	CPU: 32.7,	Mem: 0.7
+Sat Dec 08 2012 14:55:28 GMT-0500 (EST),	U: 123,	MR/S: 116,	MS/S: 14082,	MR/S/U: 0.9,	MS/S/U: 107.5,	CPU: 33.0,	Mem: 0.7
+Sat Dec 08 2012 14:55:29 GMT-0500 (EST),	U: 124,	MR/S: 103,	MS/S: 12703,	MR/S/U: 0.8,	MS/S/U: 100.4,	CPU: 33.4,	Mem: 0.7
+Sat Dec 08 2012 14:55:30 GMT-0500 (EST),	U: 127,	MR/S: 114,	MS/S: 14301,	MR/S/U: 0.9,	MS/S/U: 112.6,	CPU: 33.8,	Mem: 0.7
+Sat Dec 08 2012 14:55:31 GMT-0500 (EST),	U: 129,	MR/S: 110,	MS/S: 14012,	MR/S/U: 0.8,	MS/S/U: 99.6,	CPU: 34.2,	Mem: 0.7
+Sat Dec 08 2012 14:55:32 GMT-0500 (EST),	U: 131,	MR/S: 106,	MS/S: 13730,	MR/S/U: 0.8,	MS/S/U: 103.8,	CPU: 34.5,	Mem: 0.7
+Sat Dec 08 2012 14:55:33 GMT-0500 (EST),	U: 132,	MR/S: 122,	MS/S: 16021,	MR/S/U: 0.9,	MS/S/U: 115.4,	CPU: 34.9,	Mem: 0.7
+Sat Dec 08 2012 14:55:34 GMT-0500 (EST),	U: 135,	MR/S: 127,	MS/S: 16995,	MR/S/U: 0.9,	MS/S/U: 113.9,	CPU: 35.2,	Mem: 0.7
+Sat Dec 08 2012 14:55:35 GMT-0500 (EST),	U: 137,	MR/S: 99,	MS/S: 13426,	MR/S/U: 0.7,	MS/S/U: 95,	CPU: 35.4,	Mem: 0.7
+Sat Dec 08 2012 14:55:36 GMT-0500 (EST),	U: 139,	MR/S: 122,	MS/S: 16790,	MR/S/U: 0.9,	MS/S/U: 119.8,	CPU: 35.7,	Mem: 0.7
+Sat Dec 08 2012 14:55:37 GMT-0500 (EST),	U: 141,	MR/S: 111,	MS/S: 15505,	MR/S/U: 0.8,	MS/S/U: 109,	CPU: 36.0,	Mem: 0.7
+Sat Dec 08 2012 14:55:38 GMT-0500 (EST),	U: 143,	MR/S: 120,	MS/S: 16968,	MR/S/U: 0.8,	MS/S/U: 114.7,	CPU: 36.3,	Mem: 0.7
+Sat Dec 08 2012 14:55:39 GMT-0500 (EST),	U: 145,	MR/S: 132,	MS/S: 18969,	MR/S/U: 0.9,	MS/S/U: 123.8,	CPU: 36.7,	Mem: 0.7
+Sat Dec 08 2012 14:55:40 GMT-0500 (EST),	U: 146,	MR/S: 119,	MS/S: 17330,	MR/S/U: 0.8,	MS/S/U: 110.7,	CPU: 37.0,	Mem: 0.7
+Sat Dec 08 2012 14:55:41 GMT-0500 (EST),	U: 148,	MR/S: 116,	MS/S: 17112,	MR/S/U: 0.8,	MS/S/U: 111.6,	CPU: 37.4,	Mem: 0.7
+Sat Dec 08 2012 14:55:42 GMT-0500 (EST),	U: 151,	MR/S: 124,	MS/S: 18470,	MR/S/U: 0.8,	MS/S/U: 118.3,	CPU: 37.6,	Mem: 0.7
+Sat Dec 08 2012 14:55:43 GMT-0500 (EST),	U: 153,	MR/S: 128,	MS/S: 19409,	MR/S/U: 0.8,	MS/S/U: 125.9,	CPU: 37.9,	Mem: 0.7
+Sat Dec 08 2012 14:55:44 GMT-0500 (EST),	U: 154,	MR/S: 128,	MS/S: 19610,	MR/S/U: 0.8,	MS/S/U: 125.3,	CPU: 38.3,	Mem: 0.7
+Sat Dec 08 2012 14:55:45 GMT-0500 (EST),	U: 156,	MR/S: 124,	MS/S: 19224,	MR/S/U: 0.7,	MS/S/U: 115.2,	CPU: 38.6,	Mem: 0.7
+Sat Dec 08 2012 14:55:46 GMT-0500 (EST),	U: 159,	MR/S: 115,	MS/S: 18063,	MR/S/U: 0.7,	MS/S/U: 109.6,	CPU: 38.9,	Mem: 0.7
+Sat Dec 08 2012 14:55:47 GMT-0500 (EST),	U: 161,	MR/S: 121,	MS/S: 19314,	MR/S/U: 0.7,	MS/S/U: 116,	CPU: 39.2,	Mem: 0.8
+Sat Dec 08 2012 14:55:48 GMT-0500 (EST),	U: 162,	MR/S: 123,	MS/S: 19859,	MR/S/U: 0.7,	MS/S/U: 110.6,	CPU: 39.4,	Mem: 0.8
+Sat Dec 08 2012 14:55:49 GMT-0500 (EST),	U: 164,	MR/S: 125,	MS/S: 20373,	MR/S/U: 0.7,	MS/S/U: 106.2,	CPU: 39.5,	Mem: 0.8
+Sat Dec 08 2012 14:55:50 GMT-0500 (EST),	U: 166,	MR/S: 126,	MS/S: 20811,	MR/S/U: 0.8,	MS/S/U: 124.4,	CPU: 39.8,	Mem: 0.8
+Sat Dec 08 2012 14:55:51 GMT-0500 (EST),	U: 168,	MR/S: 126,	MS/S: 21004,	MR/S/U: 0.7,	MS/S/U: 117.7,	CPU: 40.0,	Mem: 0.9
+Sat Dec 08 2012 14:55:52 GMT-0500 (EST),	U: 169,	MR/S: 122,	MS/S: 20591,	MR/S/U: 0.7,	MS/S/U: 121.8,	CPU: 39.7,	Mem: 0.9
+Sat Dec 08 2012 14:55:53 GMT-0500 (EST),	U: 170,	MR/S: 107,	MS/S: 18163,	MR/S/U: 0.6,	MS/S/U: 106.8,	CPU: 39.7,	Mem: 0.9
+Sat Dec 08 2012 14:55:54 GMT-0500 (EST),	U: 172,	MR/S: 93,	MS/S: 15864,	MR/S/U: 0.5,	MS/S/U: 92.2,	CPU: 40.0,	Mem: 0.9
+Sat Dec 08 2012 14:55:55 GMT-0500 (EST),	U: 175,	MR/S: 108,	MS/S: 18699,	MR/S/U: 0.6,	MS/S/U: 103.9,	CPU: 40.0,	Mem: 0.9
+Sat Dec 08 2012 14:55:56 GMT-0500 (EST),	U: 177,	MR/S: 134,	MS/S: 23568,	MR/S/U: 0.7,	MS/S/U: 124.2,	CPU: 40.2,	Mem: 0.9
+Sat Dec 08 2012 14:55:57 GMT-0500 (EST),	U: 180,	MR/S: 109,	MS/S: 19382,	MR/S/U: 0.6,	MS/S/U: 107.7,	CPU: 40.3,	Mem: 0.9
+Sat Dec 08 2012 14:55:58 GMT-0500 (EST),	U: 181,	MR/S: 137,	MS/S: 24694,	MR/S/U: 0.8,	MS/S/U: 136.4,	CPU: 40.0,	Mem: 0.9
+Sat Dec 08 2012 14:55:59 GMT-0500 (EST),	U: 182,	MR/S: 92,	MS/S: 16652,	MR/S/U: 0.5,	MS/S/U: 91.5,	CPU: 40.3,	Mem: 0.8
+Sat Dec 08 2012 14:56:00 GMT-0500 (EST),	U: 183,	MR/S: 113,	MS/S: 20634,	MR/S/U: 0.6,	MS/S/U: 110.8,	CPU: 40.3,	Mem: 0.8
+Sat Dec 08 2012 14:56:01 GMT-0500 (EST),	U: 187,	MR/S: 101,	MS/S: 18686,	MR/S/U: 0.5,	MS/S/U: 99.9,	CPU: 40.3,	Mem: 0.8
+Sat Dec 08 2012 14:56:02 GMT-0500 (EST),	U: 189,	MR/S: 118,	MS/S: 22123,	MR/S/U: 0.6,	MS/S/U: 117.7,	CPU: 40.3,	Mem: 0.8
+Sat Dec 08 2012 14:56:03 GMT-0500 (EST),	U: 191,	MR/S: 112,	MS/S: 21287,	MR/S/U: 0.6,	MS/S/U: 111.5,	CPU: 40.4,	Mem: 0.8
+Sat Dec 08 2012 14:56:04 GMT-0500 (EST),	U: 193,	MR/S: 142,	MS/S: 27236,	MR/S/U: 0.7,	MS/S/U: 141.1,	CPU: 40.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:05 GMT-0500 (EST),	U: 195,	MR/S: 101,	MS/S: 19560,	MR/S/U: 0.5,	MS/S/U: 100.3,	CPU: 40.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:06 GMT-0500 (EST),	U: 196,	MR/S: 90,	MS/S: 17550,	MR/S/U: 0.5,	MS/S/U: 89.5,	CPU: 40.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:07 GMT-0500 (EST),	U: 198,	MR/S: 115,	MS/S: 22607,	MR/S/U: 0.6,	MS/S/U: 114.2,	CPU: 40.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:08 GMT-0500 (EST),	U: 200,	MR/S: 137,	MS/S: 27126,	MR/S/U: 0.7,	MS/S/U: 135.6,	CPU: 40.6,	Mem: 0.9
+Sat Dec 08 2012 14:56:09 GMT-0500 (EST),	U: 201,	MR/S: 92,	MS/S: 18484,	MR/S/U: 0.5,	MS/S/U: 92,	CPU: 40.6,	Mem: 0.9
+Sat Dec 08 2012 14:56:10 GMT-0500 (EST),	U: 203,	MR/S: 152,	MS/S: 30652,	MR/S/U: 0.8,	MS/S/U: 151.7,	CPU: 40.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:11 GMT-0500 (EST),	U: 206,	MR/S: 115,	MS/S: 23638,	MR/S/U: 0.6,	MS/S/U: 114.7,	CPU: 40.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:12 GMT-0500 (EST),	U: 208,	MR/S: 112,	MS/S: 23251,	MR/S/U: 0.5,	MS/S/U: 111.8,	CPU: 40.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:13 GMT-0500 (EST),	U: 210,	MR/S: 104,	MS/S: 21760,	MR/S/U: 0.5,	MS/S/U: 103.6,	CPU: 40.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:14 GMT-0500 (EST),	U: 211,	MR/S: 103,	MS/S: 21630,	MR/S/U: 0.5,	MS/S/U: 102.5,	CPU: 40.9,	Mem: 0.9
+Sat Dec 08 2012 14:56:15 GMT-0500 (EST),	U: 212,	MR/S: 96,	MS/S: 20293,	MR/S/U: 0.5,	MS/S/U: 95.7,	CPU: 40.9,	Mem: 0.9
+Sat Dec 08 2012 14:56:16 GMT-0500 (EST),	U: 216,	MR/S: 157,	MS/S: 33531,	MR/S/U: 0.7,	MS/S/U: 156,	CPU: 40.8,	Mem: 0.9
+Sat Dec 08 2012 14:56:17 GMT-0500 (EST),	U: 219,	MR/S: 134,	MS/S: 29081,	MR/S/U: 0.5,	MS/S/U: 108.3,	CPU: 40.8,	Mem: 0.9
+Sat Dec 08 2012 14:56:18 GMT-0500 (EST),	U: 219,	MR/S: 56,	MS/S: 12264,	MR/S/U: 0.3,	MS/S/U: 56,	CPU: 41.1,	Mem: 0.9
+Sat Dec 08 2012 14:56:19 GMT-0500 (EST),	U: 221,	MR/S: 127,	MS/S: 27960,	MR/S/U: 0.6,	MS/S/U: 126.5,	CPU: 41.2,	Mem: 0.9
+Sat Dec 08 2012 14:56:20 GMT-0500 (EST),	U: 224,	MR/S: 119,	MS/S: 26323,	MR/S/U: 0.4,	MS/S/U: 96,	CPU: 40.9,	Mem: 0.9
+Sat Dec 08 2012 14:56:21 GMT-0500 (EST),	U: 225,	MR/S: 57,	MS/S: 12794,	MR/S/U: 0.3,	MS/S/U: 56.9,	CPU: 41.2,	Mem: 0.9
+Sat Dec 08 2012 14:56:22 GMT-0500 (EST),	U: 226,	MR/S: 155,	MS/S: 34956,	MR/S/U: 0.7,	MS/S/U: 154.7,	CPU: 41.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:23 GMT-0500 (EST),	U: 226,	MR/S: 71,	MS/S: 16046,	MR/S/U: 0.3,	MS/S/U: 71,	CPU: 41.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:24 GMT-0500 (EST),	U: 228,	MR/S: 81,	MS/S: 18389,	MR/S/U: 0.4,	MS/S/U: 80.7,	CPU: 41.2,	Mem: 0.9
+Sat Dec 08 2012 14:56:25 GMT-0500 (EST),	U: 232,	MR/S: 157,	MS/S: 36187,	MR/S/U: 0.5,	MS/S/U: 118,	CPU: 41.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:26 GMT-0500 (EST),	U: 232,	MR/S: 98,	MS/S: 22736,	MR/S/U: 0.3,	MS/S/U: 81,	CPU: 41.1,	Mem: 0.9
+Sat Dec 08 2012 14:56:27 GMT-0500 (EST),	U: 234,	MR/S: 64,	MS/S: 14848,	MR/S/U: 0.3,	MS/S/U: 63.5,	CPU: 41.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:28 GMT-0500 (EST),	U: 234,	MR/S: 106,	MS/S: 24804,	MR/S/U: 0.5,	MS/S/U: 106,	CPU: 41.1,	Mem: 0.9
+Sat Dec 08 2012 14:56:29 GMT-0500 (EST),	U: 236,	MR/S: 59,	MS/S: 13806,	MR/S/U: 0.3,	MS/S/U: 58.5,	CPU: 41.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:30 GMT-0500 (EST),	U: 237,	MR/S: 95,	MS/S: 22507,	MR/S/U: 0.4,	MS/S/U: 95,	CPU: 41.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:31 GMT-0500 (EST),	U: 237,	MR/S: 112,	MS/S: 26544,	MR/S/U: 0.5,	MS/S/U: 112,	CPU: 41.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:32 GMT-0500 (EST),	U: 240,	MR/S: 90,	MS/S: 21356,	MR/S/U: 0.4,	MS/S/U: 89,	CPU: 41.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:33 GMT-0500 (EST),	U: 240,	MR/S: 99,	MS/S: 23760,	MR/S/U: 0.4,	MS/S/U: 99,	CPU: 41.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:34 GMT-0500 (EST),	U: 242,	MR/S: 139,	MS/S: 33527,	MR/S/U: 0.2,	MS/S/U: 55.5,	CPU: 41.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:35 GMT-0500 (EST),	U: 244,	MR/S: 73,	MS/S: 17738,	MR/S/U: 0.3,	MS/S/U: 72.7,	CPU: 41.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:36 GMT-0500 (EST),	U: 245,	MR/S: 97,	MS/S: 23754,	MR/S/U: 0.4,	MS/S/U: 97,	CPU: 41.6,	Mem: 0.9
+Sat Dec 08 2012 14:56:37 GMT-0500 (EST),	U: 245,	MR/S: 58,	MS/S: 14210,	MR/S/U: 0.2,	MS/S/U: 58,	CPU: 41.5,	Mem: 0.9
+Sat Dec 08 2012 14:56:38 GMT-0500 (EST),	U: 249,	MR/S: 141,	MS/S: 34627,	MR/S/U: 0.6,	MS/S/U: 139.1,	CPU: 41.7,	Mem: 0.9
+Sat Dec 08 2012 14:56:39 GMT-0500 (EST),	U: 250,	MR/S: 107,	MS/S: 26739,	MR/S/U: 0.4,	MS/S/U: 107,	CPU: 41.8,	Mem: 0.9
+Sat Dec 08 2012 14:56:40 GMT-0500 (EST),	U: 251,	MR/S: 117,	MS/S: 29250,	MR/S/U: 0.5,	MS/S/U: 117,	CPU: 41.9,	Mem: 0.9
+Sat Dec 08 2012 14:56:41 GMT-0500 (EST),	U: 252,	MR/S: 71,	MS/S: 17891,	MR/S/U: 0.3,	MS/S/U: 71,	CPU: 41.9,	Mem: 0.9
+Sat Dec 08 2012 14:56:42 GMT-0500 (EST),	U: 253,	MR/S: 115,	MS/S: 29039,	MR/S/U: 0.5,	MS/S/U: 114.8,	CPU: 41.6,	Mem: 0.9
+Sat Dec 08 2012 14:56:43 GMT-0500 (EST),	U: 255,	MR/S: 103,	MS/S: 26260,	MR/S/U: 0.4,	MS/S/U: 103,	CPU: 42.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:44 GMT-0500 (EST),	U: 255,	MR/S: 84,	MS/S: 21420,	MR/S/U: 0.3,	MS/S/U: 84,	CPU: 42.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:45 GMT-0500 (EST),	U: 256,	MR/S: 88,	MS/S: 22440,	MR/S/U: 0.3,	MS/S/U: 88,	CPU: 42.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:46 GMT-0500 (EST),	U: 257,	MR/S: 94,	MS/S: 24158,	MR/S/U: 0.4,	MS/S/U: 94,	CPU: 42.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:47 GMT-0500 (EST),	U: 258,	MR/S: 101,	MS/S: 25957,	MR/S/U: 0.4,	MS/S/U: 100.6,	CPU: 42.1,	Mem: 0.9
+Sat Dec 08 2012 14:56:48 GMT-0500 (EST),	U: 259,	MR/S: 116,	MS/S: 30028,	MR/S/U: 0.4,	MS/S/U: 115.9,	CPU: 42.2,	Mem: 0.9
+Sat Dec 08 2012 14:56:49 GMT-0500 (EST),	U: 259,	MR/S: 117,	MS/S: 30303,	MR/S/U: 0.5,	MS/S/U: 117,	CPU: 42.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:50 GMT-0500 (EST),	U: 261,	MR/S: 95,	MS/S: 24768,	MR/S/U: 0.4,	MS/S/U: 94.9,	CPU: 42.0,	Mem: 0.9
+Sat Dec 08 2012 14:56:51 GMT-0500 (EST),	U: 261,	MR/S: 86,	MS/S: 22446,	MR/S/U: 0.3,	MS/S/U: 86,	CPU: 42.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:52 GMT-0500 (EST),	U: 263,	MR/S: 105,	MS/S: 27520,	MR/S/U: 0.4,	MS/S/U: 104.6,	CPU: 42.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:53 GMT-0500 (EST),	U: 263,	MR/S: 110,	MS/S: 28930,	MR/S/U: 0.4,	MS/S/U: 110,	CPU: 42.2,	Mem: 0.9
+Sat Dec 08 2012 14:56:54 GMT-0500 (EST),	U: 266,	MR/S: 121,	MS/S: 32055,	MR/S/U: 0.5,	MS/S/U: 120.5,	CPU: 42.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:55 GMT-0500 (EST),	U: 266,	MR/S: 82,	MS/S: 21812,	MR/S/U: 0.3,	MS/S/U: 82,	CPU: 42.3,	Mem: 0.9
+Sat Dec 08 2012 14:56:56 GMT-0500 (EST),	U: 267,	MR/S: 135,	MS/S: 36031,	MR/S/U: 0.5,	MS/S/U: 134.9,	CPU: 42.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:57 GMT-0500 (EST),	U: 267,	MR/S: 57,	MS/S: 15219,	MR/S/U: 0.2,	MS/S/U: 57,	CPU: 42.6,	Mem: 0.9
+Sat Dec 08 2012 14:56:58 GMT-0500 (EST),	U: 270,	MR/S: 113,	MS/S: 30307,	MR/S/U: 0.4,	MS/S/U: 112.7,	CPU: 42.4,	Mem: 0.9
+Sat Dec 08 2012 14:56:59 GMT-0500 (EST),	U: 270,	MR/S: 97,	MS/S: 26190,	MR/S/U: 0.4,	MS/S/U: 97,	CPU: 42.8,	Mem: 0.9
+Sat Dec 08 2012 14:57:00 GMT-0500 (EST),	U: 270,	MR/S: 128,	MS/S: 34560,	MR/S/U: 0.1,	MS/S/U: 24,	CPU: 42.6,	Mem: 0.9
+Sat Dec 08 2012 14:57:01 GMT-0500 (EST),	U: 270,	MR/S: 50,	MS/S: 13500,	MR/S/U: 0.2,	MS/S/U: 50,	CPU: 42.8,	Mem: 0.9
+Sat Dec 08 2012 14:57:02 GMT-0500 (EST),	U: 273,	MR/S: 135,	MS/S: 36827,	MR/S/U: 0.5,	MS/S/U: 134.9,	CPU: 42.7,	Mem: 0.9
+Sat Dec 08 2012 14:57:03 GMT-0500 (EST),	U: 273,	MR/S: 69,	MS/S: 18837,	MR/S/U: 0.3,	MS/S/U: 69,	CPU: 42.9,	Mem: 0.9
+Sat Dec 08 2012 14:57:04 GMT-0500 (EST),	U: 274,	MR/S: 128,	MS/S: 34944,	MR/S/U: 0.5,	MS/S/U: 128,	CPU: 42.8,	Mem: 0.9
+Sat Dec 08 2012 14:57:05 GMT-0500 (EST),	U: 276,	MR/S: 55,	MS/S: 15180,	MR/S/U: 0.2,	MS/S/U: 55,	CPU: 43.0,	Mem: 1.0
+Sat Dec 08 2012 14:57:07 GMT-0500 (EST),	U: 276,	MR/S: 183,	MS/S: 50508,	MR/S/U: 0.5,	MS/S/U: 134,	CPU: 42.9,	Mem: 1.0
+Sat Dec 08 2012 14:57:07 GMT-0500 (EST),	U: 276,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.1,	Mem: 1.0
+Sat Dec 08 2012 14:57:08 GMT-0500 (EST),	U: 276,	MR/S: 136,	MS/S: 37536,	MR/S/U: 0,	MS/S/U: 9,	CPU: 42.9,	Mem: 1.0
+Sat Dec 08 2012 14:57:09 GMT-0500 (EST),	U: 276,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.0,	Mem: 1.0
+Sat Dec 08 2012 14:57:10 GMT-0500 (EST),	U: 276,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 42.8,	Mem: 1.0
+Sat Dec 08 2012 14:57:11 GMT-0500 (EST),	U: 276,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 42.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:12 GMT-0500 (EST),	U: 278,	MR/S: 190,	MS/S: 52804,	MR/S/U: 0.7,	MS/S/U: 189.9,	CPU: 42.6,	Mem: 1.0
+Sat Dec 08 2012 14:57:13 GMT-0500 (EST),	U: 278,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 42.7,	Mem: 1.0
+Sat Dec 08 2012 14:57:14 GMT-0500 (EST),	U: 279,	MR/S: 131,	MS/S: 36549,	MR/S/U: 0.5,	MS/S/U: 131,	CPU: 42.8,	Mem: 1.0
+Sat Dec 08 2012 14:57:15 GMT-0500 (EST),	U: 282,	MR/S: 108,	MS/S: 30379,	MR/S/U: 0.3,	MS/S/U: 75,	CPU: 42.8,	Mem: 1.0
+Sat Dec 08 2012 14:57:16 GMT-0500 (EST),	U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 42.7,	Mem: 1.0
+Sat Dec 08 2012 14:57:17 GMT-0500 (EST),	U: 282,	MR/S: 212,	MS/S: 59784,	MR/S/U: 0.5,	MS/S/U: 142,	CPU: 42.9,	Mem: 1.0
+Sat Dec 08 2012 14:57:18 GMT-0500 (EST),	U: 282,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 42.8,	Mem: 1.0
+Sat Dec 08 2012 14:57:19 GMT-0500 (EST),	U: 284,	MR/S: 172,	MS/S: 48676,	MR/S/U: 0.6,	MS/S/U: 171.4,	CPU: 42.8,	Mem: 1.0
+Sat Dec 08 2012 14:57:20 GMT-0500 (EST),	U: 286,	MR/S: 106,	MS/S: 30306,	MR/S/U: 0.4,	MS/S/U: 106,	CPU: 42.9,	Mem: 1.0
+Sat Dec 08 2012 14:57:21 GMT-0500 (EST),	U: 286,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.0,	Mem: 1.0
+Sat Dec 08 2012 14:57:22 GMT-0500 (EST),	U: 286,	MR/S: 117,	MS/S: 33462,	MR/S/U: 0.4,	MS/S/U: 117,	CPU: 43.1,	Mem: 1.0
+Sat Dec 08 2012 14:57:23 GMT-0500 (EST),	U: 287,	MR/S: 114,	MS/S: 32705,	MR/S/U: 0.4,	MS/S/U: 114,	CPU: 43.2,	Mem: 1.0
+Sat Dec 08 2012 14:57:24 GMT-0500 (EST),	U: 287,	MR/S: 111,	MS/S: 31857,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 43.0,	Mem: 1.0
+Sat Dec 08 2012 14:57:25 GMT-0500 (EST),	U: 288,	MR/S: 101,	MS/S: 29087,	MR/S/U: 0.3,	MS/S/U: 100,	CPU: 43.1,	Mem: 0.9
+Sat Dec 08 2012 14:57:26 GMT-0500 (EST),	U: 288,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.1,	Mem: 0.9
+Sat Dec 08 2012 14:57:27 GMT-0500 (EST),	U: 288,	MR/S: 148,	MS/S: 42624,	MR/S/U: 0.5,	MS/S/U: 148,	CPU: 43.3,	Mem: 0.9
+Sat Dec 08 2012 14:57:28 GMT-0500 (EST),	U: 288,	MR/S: 78,	MS/S: 22464,	MR/S/U: 0.3,	MS/S/U: 78,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:30 GMT-0500 (EST),	U: 290,	MR/S: 154,	MS/S: 44650,	MR/S/U: 0.5,	MS/S/U: 154,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:30 GMT-0500 (EST),	U: 290,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:31 GMT-0500 (EST),	U: 290,	MR/S: 114,	MS/S: 33060,	MR/S/U: 0.4,	MS/S/U: 114,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:32 GMT-0500 (EST),	U: 290,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.2,	Mem: 1.0
+Sat Dec 08 2012 14:57:33 GMT-0500 (EST),	U: 292,	MR/S: 130,	MS/S: 37831,	MR/S/U: 0.4,	MS/S/U: 129.6,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:34 GMT-0500 (EST),	U: 292,	MR/S: 122,	MS/S: 35624,	MR/S/U: 0.4,	MS/S/U: 122,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:35 GMT-0500 (EST),	U: 292,	MR/S: 116,	MS/S: 33872,	MR/S/U: 0.4,	MS/S/U: 116,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:37 GMT-0500 (EST),	U: 292,	MR/S: 122,	MS/S: 35624,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:37 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:38 GMT-0500 (EST),	U: 292,	MR/S: 122,	MS/S: 35624,	MR/S/U: 0.4,	MS/S/U: 122,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:39 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:40 GMT-0500 (EST),	U: 292,	MR/S: 116,	MS/S: 33872,	MR/S/U: 0.4,	MS/S/U: 116,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:41 GMT-0500 (EST),	U: 292,	MR/S: 141,	MS/S: 41172,	MR/S/U: 0.5,	MS/S/U: 141,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:42 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.0
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:57:43 GMT-0500 (EST),	U: 292,	MR/S: 129,	MS/S: 37668,	MR/S/U: 0.4,	MS/S/U: 129,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:44 GMT-0500 (EST),	U: 292,	MR/S: 141,	MS/S: 41172,	MR/S/U: 0.5,	MS/S/U: 141,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:45 GMT-0500 (EST),	U: 292,	MR/S: 67,	MS/S: 19564,	MR/S/U: 0.2,	MS/S/U: 67,	CPU: 43.7,	Mem: 1.0
+Sat Dec 08 2012 14:57:46 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:47 GMT-0500 (EST),	U: 292,	MR/S: 155,	MS/S: 45260,	MR/S/U: 0.5,	MS/S/U: 150,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:48 GMT-0500 (EST),	U: 292,	MR/S: 105,	MS/S: 30660,	MR/S/U: 0.4,	MS/S/U: 105,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:49 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.0
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:57:50 GMT-0500 (EST),	U: 292,	MR/S: 155,	MS/S: 45260,	MR/S/U: 0.4,	MS/S/U: 116,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:51 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:52 GMT-0500 (EST),	U: 292,	MR/S: 131,	MS/S: 38252,	MR/S/U: 0.4,	MS/S/U: 130,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:53 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:54 GMT-0500 (EST),	U: 292,	MR/S: 137,	MS/S: 40004,	MR/S/U: 0.5,	MS/S/U: 137,	CPU: 43.3,	Mem: 1.0
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:57:55 GMT-0500 (EST),	U: 292,	MR/S: 126,	MS/S: 36792,	MR/S/U: 0.4,	MS/S/U: 126,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:56 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:57:57 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:57:58 GMT-0500 (EST),	U: 292,	MR/S: 163,	MS/S: 47596,	MR/S/U: 0.6,	MS/S/U: 163,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:57:59 GMT-0500 (EST),	U: 292,	MR/S: 79,	MS/S: 23068,	MR/S/U: 0.3,	MS/S/U: 79,	CPU: 43.5,	Mem: 1.0
+Sat Dec 08 2012 14:58:00 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:58:01 GMT-0500 (EST),	U: 292,	MR/S: 153,	MS/S: 44676,	MR/S/U: 0.5,	MS/S/U: 153,	CPU: 43.4,	Mem: 1.0
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:02 GMT-0500 (EST),	U: 292,	MR/S: 67,	MS/S: 19564,	MR/S/U: 0.2,	MS/S/U: 67,	CPU: 43.4,	Mem: 1.0
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:03 GMT-0500 (EST),	U: 292,	MR/S: 138,	MS/S: 40296,	MR/S/U: 0.5,	MS/S/U: 138,	CPU: 43.3,	Mem: 1.0
+Sat Dec 08 2012 14:58:04 GMT-0500 (EST),	U: 292,	MR/S: 128,	MS/S: 37376,	MR/S/U: 0.4,	MS/S/U: 126,	CPU: 43.4,	Mem: 1.0
+Sat Dec 08 2012 14:58:05 GMT-0500 (EST),	U: 292,	MR/S: 52,	MS/S: 15184,	MR/S/U: 0.2,	MS/S/U: 52,	CPU: 43.6,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:06 GMT-0500 (EST),	U: 292,	MR/S: 116,	MS/S: 33872,	MR/S/U: 0.4,	MS/S/U: 116,	CPU: 43.6,	Mem: 1.2
+Sat Dec 08 2012 14:58:07 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.6,	Mem: 1.2
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:08 GMT-0500 (EST),	U: 292,	MR/S: 108,	MS/S: 31536,	MR/S/U: 0.4,	MS/S/U: 108,	CPU: 43.7,	Mem: 1.2
+Sat Dec 08 2012 14:58:09 GMT-0500 (EST),	U: 292,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.2
+Sat Dec 08 2012 14:58:10 GMT-0500 (EST),	U: 291,	MR/S: 130,	MS/S: 37833,	MR/S/U: 0.4,	MS/S/U: 130,	CPU: 43.6,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:12 GMT-0500 (EST),	U: 291,	MR/S: 151,	MS/S: 43941,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.1
+Sat Dec 08 2012 14:58:12 GMT-0500 (EST),	U: 291,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.1
+Sat Dec 08 2012 14:58:13 GMT-0500 (EST),	U: 291,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:14 GMT-0500 (EST),	U: 291,	MR/S: 140,	MS/S: 40740,	MR/S/U: 0.5,	MS/S/U: 140,	CPU: 43.5,	Mem: 1.1
+Sat Dec 08 2012 14:58:15 GMT-0500 (EST),	U: 291,	MR/S: 69,	MS/S: 20079,	MR/S/U: 0.2,	MS/S/U: 69,	CPU: 43.5,	Mem: 1.1
+Sat Dec 08 2012 14:58:16 GMT-0500 (EST),	U: 291,	MR/S: 125,	MS/S: 36375,	MR/S/U: 0.4,	MS/S/U: 125,	CPU: 43.5,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:17 GMT-0500 (EST),	U: 291,	MR/S: 92,	MS/S: 26772,	MR/S/U: 0.3,	MS/S/U: 92,	CPU: 43.6,	Mem: 1.1
+Sat Dec 08 2012 14:58:18 GMT-0500 (EST),	U: 291,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.4,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:19 GMT-0500 (EST),	U: 291,	MR/S: 202,	MS/S: 58782,	MR/S/U: 0.6,	MS/S/U: 163,	CPU: 43.5,	Mem: 1.1
+Sat Dec 08 2012 14:58:20 GMT-0500 (EST),	U: 291,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:21 GMT-0500 (EST),	U: 291,	MR/S: 129,	MS/S: 37539,	MR/S/U: 0.4,	MS/S/U: 129,	CPU: 43.6,	Mem: 1.1
+Sat Dec 08 2012 14:58:22 GMT-0500 (EST),	U: 290,	MR/S: 90,	MS/S: 26117,	MR/S/U: 0.3,	MS/S/U: 90.1,	CPU: 43.6,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:24 GMT-0500 (EST),	U: 288,	MR/S: 138,	MS/S: 39744,	MR/S/U: 0,	MS/S/U: 8,	CPU: 43.5,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:24 GMT-0500 (EST),	U: 288,	MR/S: 42,	MS/S: 12096,	MR/S/U: 0.1,	MS/S/U: 42,	CPU: 43.6,	Mem: 1.1
+Sat Dec 08 2012 14:58:25 GMT-0500 (EST),	U: 288,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.5,	Mem: 1.1
+Sat Dec 08 2012 14:58:26 GMT-0500 (EST),	U: 288,	MR/S: 197,	MS/S: 56736,	MR/S/U: 0.7,	MS/S/U: 197,	CPU: 43.7,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:27 GMT-0500 (EST),	U: 286,	MR/S: 88,	MS/S: 25168,	MR/S/U: 0.3,	MS/S/U: 88,	CPU: 43.5,	Mem: 1.1
+Sat Dec 08 2012 14:58:28 GMT-0500 (EST),	U: 285,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.6,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:29 GMT-0500 (EST),	U: 285,	MR/S: 128,	MS/S: 36480,	MR/S/U: 0.4,	MS/S/U: 128,	CPU: 43.6,	Mem: 1.1
+Sat Dec 08 2012 14:58:30 GMT-0500 (EST),	U: 285,	MR/S: 76,	MS/S: 21660,	MR/S/U: 0.3,	MS/S/U: 76,	CPU: 43.6,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:31 GMT-0500 (EST),	U: 285,	MR/S: 111,	MS/S: 31635,	MR/S/U: 0.4,	MS/S/U: 111,	CPU: 43.7,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:32 GMT-0500 (EST),	U: 285,	MR/S: 68,	MS/S: 19380,	MR/S/U: 0.2,	MS/S/U: 68,	CPU: 43.7,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:33 GMT-0500 (EST),	U: 284,	MR/S: 191,	MS/S: 54415,	MR/S/U: 0.5,	MS/S/U: 131,	CPU: 43.7,	Mem: 1.1
+Sat Dec 08 2012 14:58:34 GMT-0500 (EST),	U: 284,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.7,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:35 GMT-0500 (EST),	U: 283,	MR/S: 184,	MS/S: 52199,	MR/S/U: 0.5,	MS/S/U: 142.4,	CPU: 43.6,	Mem: 1.1
+Sat Dec 08 2012 14:58:36 GMT-0500 (EST),	U: 283,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.7,	Mem: 1.1
+Sat Dec 08 2012 14:58:37 GMT-0500 (EST),	U: 283,	MR/S: 188,	MS/S: 53204,	MR/S/U: 0.7,	MS/S/U: 188,	CPU: 43.7,	Mem: 1.1
+Sat Dec 08 2012 14:58:38 GMT-0500 (EST),	U: 280,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.8,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:39 GMT-0500 (EST),	U: 280,	MR/S: 185,	MS/S: 51800,	MR/S/U: 0.7,	MS/S/U: 185,	CPU: 43.8,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:40 GMT-0500 (EST),	U: 279,	MR/S: 102,	MS/S: 28458,	MR/S/U: 0.4,	MS/S/U: 101,	CPU: 43.8,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:41 GMT-0500 (EST),	U: 279,	MR/S: 101,	MS/S: 28179,	MR/S/U: 0.4,	MS/S/U: 101,	CPU: 43.8,	Mem: 1.1
+Sat Dec 08 2012 14:58:42 GMT-0500 (EST),	U: 279,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 43.9,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:43 GMT-0500 (EST),	U: 279,	MR/S: 103,	MS/S: 28737,	MR/S/U: 0.4,	MS/S/U: 103,	CPU: 43.9,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:44 GMT-0500 (EST),	U: 277,	MR/S: 117,	MS/S: 32643,	MR/S/U: 0.4,	MS/S/U: 117.8,	CPU: 44.0,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:45 GMT-0500 (EST),	U: 277,	MR/S: 78,	MS/S: 21606,	MR/S/U: 0.3,	MS/S/U: 78,	CPU: 44.0,	Mem: 1.1
+Sat Dec 08 2012 14:58:46 GMT-0500 (EST),	U: 277,	MR/S: 132,	MS/S: 36564,	MR/S/U: 0.5,	MS/S/U: 132,	CPU: 44.0,	Mem: 1.1
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:47 GMT-0500 (EST),	U: 275,	MR/S: 78,	MS/S: 21460,	MR/S/U: 0.3,	MS/S/U: 78,	CPU: 44.0,	Mem: 1.1
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+warn: client not handshaken client should reconnect
+Sat Dec 08 2012 14:58:48 GMT-0500 (EST),	U: 275,	MR/S: 191,	MS/S: 52525,	MR/S/U: 0.5,	MS/S/U: 148,	CPU: 44.0,	Mem: 1.0
+Sat Dec 08 2012 14:58:49 GMT-0500 (EST),	U: 275,	MR/S: 0,	MS/S: 0,	MR/S/U: 0,	MS/S/U: 0,	CPU: 44.1,	Mem: 1.0
