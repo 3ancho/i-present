@@ -242,14 +242,15 @@ body.deck-container {
 .slide h4 {
   font-size: 1.45em;
   font-weight: bold;
+  color: #151B54;
   margin-bottom: .45em;
-  margin-left: 1.6em;
+  margin-left: 2.0em;
 }
 .slide h5 {
   font-size: 1.125em;
   font-weight: bold;
   margin-bottom: .3222em;
-  margin-left: 2.4em;
+  margin-left: 3.4em;
 }
 .slide h6 {
   font-size: 1em;
