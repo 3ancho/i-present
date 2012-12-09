@@ -32,6 +32,8 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
 
     <!-- Ruoran -->
+    <!--  Yan  -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   </head>
   <body>
     <div class="container-fluid" style="margin-top: 20px">
@@ -189,6 +191,54 @@
         <section class="slide">
         <h2>The Application</h2>
         </section>
+        <section class="slide">
+        <div id="out"></div>
+        <div id="chart_div" style="width: 900px; height: 500px;"></div>
+        <script type="text/javascript">
+            var socket;
+            stats_array = new Array(10);
+            var out = $('#out');
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                        ['time','usr','idle'],
+                        [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
+                        [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
+                        [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
+                        [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
+                        [stats_array[4].date.substring(12,19), Math.floor(stats_array[4].cpu.us), Math.floor(stats_array[4].cpu.id)],
+                        ]);
+
+                var options = {
+title: 'CPU Usage',
+       hAxis: {title: 'Time',  titleTextStyle: {color: 'red'}}
+                };
+
+                var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+                chart.draw(data, options);
+            }
+
+socket = io.connect("http://localhost:3232");
+socket.on("connect",function() {
+        out.html(" Connection Opened. <br>");
+        });
+
+socket.on("message", function(event) {
+        stats = event.data;
+        data = JSON.parse(stats);
+        console.log("received data");
+        stats_array.unshift(data);
+        stats_array.pop();
+        if (stats_array[4]) drawChart(); 
+        });
+socket.on('disconnect', function() {
+        out.html('Connection closed.<br>');
+        });
+
+google.load("visualization", "1", {packages:["corechart"]});
+//google.setOnLoadCallback(drawChart);
+
+</script>
+</section>
         <!-- End slides. -->
 
         <!-- Begin extension snippets. Add or remove as needed. -->
