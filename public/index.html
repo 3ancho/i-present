@@ -55,6 +55,7 @@
         <h3>Benchmarks</h3>
         <h3>WebSocket: About the protocol</h3>
         <h3>WebSocket: Performance</h3>
+        <h3>WebSocket: Support</h3>
         <h3>The Application</h3>
         </section>
 
@@ -186,13 +187,23 @@
 
         <section class="slide">
         <h2>WebSocket: Performance</h2>
+        <table>
+            <tr><td><img src="http://dl.dropbox.com/u/40884644/sio091cpu.png"></td>
+            <td><img src="http://dl.dropbox.com/u/40884644/sio091cputime.png"></td></tr>
+        </table>
+        <table>
+            <tr><td><img src="http://dl.dropbox.com/u/40884644/sio091mem.png"></td> 
+            <td><img src="http://dl.dropbox.com/u/40884644/sio091heap.png"></td></tr>
+        </table>
         </section>
-
+        <section class="slide">
+        <h2>WebSocket: Support</h2>
+        <img src="http://dl.dropbox.com/u/40884644/websocket_support.png">
+        <p>http://caniuse.com/websockets</p>
+        </section>
         <section class="slide">
         <h2>The Application</h2>
         </section>
-        <div id="out"></div>
-       	<div id="chart_div" style="width: 900px; height: 500px;"></div>
         <!-- End slides. -->
 
         <!-- Begin extension snippets. Add or remove as needed. -->
@@ -248,49 +259,48 @@
           <input id="chat-message" class="span10" type="text"></input>
           <button class="btn" type="button" id="say" >Say</button>
         </div>
+
+       	<div id="chart_div"></div>
+
         </aside>
       </div> <!-- end of div row -->
     </div> <!-- end of div container -->
 
     <script src="socket.io/socket.io.js"></script> 
-<script type="text/javascript">
-            var socket;
-            stats_array = new Array(10);
-            var out = $('#out');
-            function drawChart() {
-                var data = google.visualization.arrayToDataTable([
-                        ['time','usr','idle'],
-                        [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
-                        [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
-                        [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
-                        [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
-                        [stats_array[4].date.substring(12,19), Math.floor(stats_array[4].cpu.us), Math.floor(stats_array[4].cpu.id)],
-                        ]);
 
-               var options = {
-title: 'CPU Usage',
-       hAxis: {title: 'Time',  titleTextStyle: {color: 'red'}}
-                };
+    <script type="text/javascript">
+    var socket;
+    stats_array = new Array(10);
+    var out = $('#out');
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+                    ['time','usr','idle'],
+                    [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
+                    [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
+                    [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
+                    [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
+                    [stats_array[4].date.substring(12,19), Math.floor(stats_array[4].cpu.us), Math.floor(stats_array[4].cpu.id)],
+            ]);
 
-                var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
-                chart.draw(data, options);
-            }
+            var options = {
+                title: 'CPU Usage',
+            };
 
-socket = io.connect("http://localhost:3232");
-socket.on("connect",function() {
-        out.html(" Connection Opened. <br>");
+            var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+
+        socket = io.connect("http://s2.decx.co:3232");
+        socket.on("connect",function() {
         });
 
-socket.on("message", function(event) {
+        socket.on("message", function(event) {
         stats = event.data;
         data = JSON.parse(stats);
         console.log("received data");
         stats_array.unshift(data);
         stats_array.pop();
         if (stats_array[4]) drawChart(); 
-        });
-socket.on('disconnect', function() {
-        out.html('Connection closed.<br>');
         });
 
 google.load("visualization", "1", {packages:["corechart"]});
@@ -301,7 +311,7 @@ google.load("visualization", "1", {packages:["corechart"]});
     <script>
       // First class functions
       name = ""
-      var socket = io.connect("http://localhost:3000");
+      var socket = io.connect("http://s2.decx.co:3000");
       socket.on("news", function (data) {
         console.log(data.content);
         $("#client-count").text(data.clients);
