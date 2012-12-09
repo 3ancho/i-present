@@ -1,0 +1,80 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>comparing echo functionality with http and websocket</title>
+    <script src="jquery-1.7.2.min.js"></script>
+    <style>
+      div { border: 1px solid gray; width: 80%; position: relative; height: 150px; }
+      div.plot { position: absolute; border: 1px solid gray; width: 10px; height: 10px; background: yellow}
+    </style>
+  </head>
+  <body>
+    <h1>Diff between WebSocket and HTTP.</h1>
+    <b>mode: </b>
+    <input type="radio" name="mode" value="http_one">HTTP(one by one)
+    <input type="radio" name="mode" value="http_once" checked>HTTP(block transfer)
+    <input type="radio" name="mode" value="ws">WebSocket
+    <hr>
+    <h3>origin</h3>
+    <div id="origin"></div>
+    <h3>received data</h3>
+    <div id="echo"></div>
+  </body>
+  <script src="socket.io/socket.io.js"></script>
+  <script>
+    //JSON.stringify(data)
+    var socket = io.connect("http://localhost:4000");
+
+    socket.on("message", function (data) {
+      console.log(data);
+      plot(data);
+    });
+
+
+    var plot = function(data) {
+      plot_(data, '#echo');
+    }
+    var plotOrigin = function(data) {
+      plot_(data, '#origin');
+    }
+    var plot_ = function(data, target) {
+      $("<div class='plot'></div>").css({left:data.x, top:data.y}).appendTo(target).fadeOut(3000);
+    }
+          
+    var getMode = function() {
+      var ret = null;
+      $("input[name=mode]").each(function(){
+        if(!!$(this).attr("checked")){
+          ret = $(this).val();
+        }
+      });
+
+      return ret;
+    }
+    $("input[name=mode]").click(function(){
+        mode = getMode();
+    });
+
+    mode = getMode();
+
+    $("#origin").bind("mousemove", function(e) {
+      if(e.srcElement.className === "plot") return;
+
+      var obj = {x : e.offsetX, y: e.offsetY};
+      plotOrigin(obj);
+
+      switch(mode) {
+      case "ws": 
+        socket.emit("message", obj);
+        break;
+      default:
+        socket.emit("message", obj);
+        break;
+      }
+    });
+
+  </script>
+</html>
+
