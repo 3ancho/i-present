@@ -82,13 +82,16 @@
   
         <section class="slide">
         <h2>Google Doc's traffic</h2>
-        
+        <h3> Duration: 2094 secs </h3>
+        <h3> Total packets length 259852</h3>
+        <h3> Ratio 124.093600764 </h3> 
         <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-06%20at%2010.26.06%20PM.png">
         </section>
 
         <section class="slide">
         <h2>Trello</h2>
         <h3> Real-time collaborating </h3>
+        <h3> No traffic overhead </h3>
         </section>
 
         <section class="slide">
@@ -106,6 +109,14 @@
         <section class="slide">
         <h2>WebSocket: About the protocol</h2>
         <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: Security</h2>
+        <h3>It's base on TCP</h3>
+        <h3>TLS/SSL</h3>
+        <h3>With out HTTP header, MIME type </h3>
+        <h3>Server could ship harmful javascript to your brwoser</h3>
         </section>
 
         <section class="slide">
@@ -133,18 +144,22 @@
 
         <section class="slide">
         <h2>WebSocket: About the protocol</h2>
-        <p>
+        <h3>
         base64-encoded minus any leading and trailing whitespace
+        </h3>
+        <h3>
         Append following  Globally Unique Identifier (GUID).
+        </h3>
+        <h3>
         A UUID is 128 bits long, and requires no central registration process. 
+        </h3>
         <pre>Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==</pre>
         
         <pre>258EAFA5-E914-47DA-95CA-C5AB0DC85B11</pre>
 
-            Then hash with sha-1, encoded with base64
+        <h3> Then hash with sha-1, encoded with base64 </h3>
         <pre>Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=</pre>
 
-        </p>
         </section>
 
         <section class="slide">
@@ -157,6 +172,8 @@
 
         <section class="slide">
         <h2>The Application</h2>
+        <h3>This presentation is powered by WebSocket </h3>
+        <h3>In detail, socket.io, which will use AJAX if your browser sucks </h3>
         </section>
 
         <!-- End slides. -->

@@ -92,6 +92,7 @@ class ParseApp(object):
       series = [[],[],[]]
 
       start_time = [ int(item) for item in data[0][0][:8].split(":") ]
+      end_time = [ int(item) for item in data[-1][0][:8].split(":") ]
       for entry in data:
         tmp = [ int(item) for item in  entry[0][:8].split(":") ]
         arr = asarray(tmp) - asarray(start_time)
@@ -99,6 +100,13 @@ class ParseApp(object):
         series[0].append(timestamp)
         series[1].append(int(entry[1]))
         series[2].append(int(entry[2]))
+
+      d_arr = asarray(end_time) - asarray(start_time)
+      duration = d_arr[0] * 3600 + d_arr[1] * 60 + d_arr[2]
+      total_len = sum(series[2])
+      print "duration", duration 
+      print "total packets length", total_len 
+      print "ratio", float(total_len) / duration
 
       #pyplot.plot(series[0], series[2], "b", label=label[2] )
       pyplot.hist(series[2])
