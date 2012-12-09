@@ -227,26 +227,29 @@ body.deck-container {
   transform: none;
 }
 .slide h2 {
-  font-size: 2.25em;
+  font-size: 2.55em;
   font-weight: bold;
   padding-top: .5em;
   margin: 0 0 .66666em 0;
   border-bottom: 3px solid #888;
 }
 .slide h3 {
-  font-size: 1.4375em;
+  font-size: 1.6375em;
   font-weight: bold;
-  margin-bottom: .30435em;
+  margin-bottom: .55435em;
+  margin-left: .8em;
 }
 .slide h4 {
-  font-size: 1.25em;
+  font-size: 1.45em;
   font-weight: bold;
-  margin-bottom: .25em;
+  margin-bottom: .45em;
+  margin-left: 1.6em;
 }
 .slide h5 {
   font-size: 1.125em;
   font-weight: bold;
-  margin-bottom: .2222em;
+  margin-bottom: .3222em;
+  margin-left: 2.4em;
 }
 .slide h6 {
   font-size: 1em;

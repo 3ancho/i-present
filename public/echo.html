@@ -25,11 +25,18 @@
   <script src="socket.io/socket.io.js"></script>
   <script>
     //JSON.stringify(data)
-    var socket = io.connect("http://localhost:4000");
+    count = 0;
+    list = new Array();
+    latency = new Array();
+
+    var socket = io.connect("http://67.194.197.7:4000");
 
     socket.on("message", function (data) {
-      console.log(data);
-      plot(data);
+      var date = new Date();
+      var end_time = date.getTime()
+      latency[data.id] = end_time - list[data.id]
+      console.log(latency[data.id]);
+      plot({x: data.x, y: data.y});
     });
 
 
@@ -61,8 +68,11 @@
 
     $("#origin").bind("mousemove", function(e) {
       if(e.srcElement.className === "plot") return;
-
-      var obj = {x : e.offsetX, y: e.offsetY};
+      var date = new Date();
+      var t = date.getTime();
+      list[count] = t;
+      var obj = {id: count, x : e.offsetX, y: e.offsetY};
+      count = count + 1
       plotOrigin(obj);
 
       switch(mode) {
@@ -77,4 +87,3 @@
 
   </script>
 </html>
-
