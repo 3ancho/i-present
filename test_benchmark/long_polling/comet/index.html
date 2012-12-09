@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+        <script>
+            // Client code
+            var counter = 0;
+            var poll = function() {
+                console.log(counter);
+                $.getJSON('/poll/'+counter, function(response) {
+                    counter = response.count;
+                    var elem = $('#output');
+                    console.log(elem.text());
+                    elem.text(elem.text() + response.append);
+                    setTimeout(poll, 0);
+                });
+            }
+            poll();
+        </script>
+    </head>
+    <body>
+        <textarea id="output" style="width: 100%; height: 100%;">
+        </textarea>
+    </body>
+</html>
