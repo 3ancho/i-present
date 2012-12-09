@@ -54,10 +54,12 @@ io.sockets.on('connection', function (socket) {
     console.log('change slide to ' + data)
     socket.broadcast.emit('client_change_slide', data);
   });
+
   socket.on('disconnect', function () {
     setTimeout(function() {client_count = io.sockets.clients().length;}, 10000);
     socket.broadcast.emit('client_count_update', {clients: client_count});
     console.log(client_count);
   })
+
 });
 

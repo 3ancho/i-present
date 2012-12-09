@@ -46,6 +46,7 @@
 
         <section class="slide">
         <h2>Overview</h2>
+        <h3>Problems with HTTP</h3>
         <h3>Intro</h3>
         <h3>Background</h3>
         <h3>AJAX and Long Polling</h3>
@@ -56,9 +57,53 @@
         </section>
 
         <section class="slide">
+        <h2>Problems with HTTP</h2>
+        <h3>Real-time? No</h3>
+        <h3>Bi-directional? No</h3>
+          <h4> Hack Periodic Polling </h4>
+          <h5>Client poll updates from server, every n secs</h5>  
+          <h5>Requests that could return nothing! Waste!</h5>  
+          <h4> Hack 2.0 Long Polling(Comet) </h4>
+          <h5>Poll request is kept by server, until data avialable</h5>  
+          <h5> Poor resource utilization on server!</h5>  
+        <h3>Additional Headers? Yes</h3>
+        <br>
+        <h3>
+        </section>
+
+        <section class="slide">
+        <h2> Periodic Polling </h2>
+        </section>
+
+        <section class="slide">
+        <h2> Long Polling </h2>
+        </section>
+
+        <section class="slide">
         <h2>Intro</h2>
-        <h3>Full Duplex tunnel</h3>
+        <h3> For web applications (Browser)</h3>
+        <h3>RFC 6455</h3>
+        <h3>On top of TCP</h3>
+        </br>
+        <h3>1. Real-Time (event-driven)</h3>
+        <h3>2. Duplex tunnel</h3>
         <h3>Heart Beat (e.g. google doc)</h3>
+        </section>
+
+        <section class="slide">
+        <h2>Intro (Continued)</h2>
+        <h3> Start with HTTP, Upgrade to Websocket </h3>
+        <h3> Port 80/443 - Proxy/Firewall friendly</h3>
+        <h4> ws:// and wss:// </h4>
+        <h3> Each message has only 2 bytes of overhead</h3>
+        <h3> No need to establish new TCP for each HTTP message </h3>
+        <h3> No pooling overhead </h3>
+        </section>
+
+        <section class="slide">
+        <h2>Detail (Continued)</h2>
+        <h3> close event </h3>
+        <h3> app show take care of more </h3>
         </section>
 
         <section class="slide">
@@ -85,6 +130,7 @@
         
         <section class="slide">
         <h2>Benchmark</h2>
+        <img src="https://dl.dropbox.com/u/4489964/websocket_broadcast.png">
         <h3></h3>
         </section>
 
@@ -143,7 +189,6 @@
         <section class="slide">
         <h2>The Application</h2>
         </section>
-
         <!-- End slides. -->
 
         <!-- Begin extension snippets. Add or remove as needed. -->
