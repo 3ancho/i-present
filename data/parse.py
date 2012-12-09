@@ -76,13 +76,14 @@ class ParseApp(object):
 #      for i, item in enumerate(series[1:]):
 #        pyplot.plot(series[0], item, label=label[i+1])
       pyplot.plot(series[0], series[2], "mo", label=label[2])
-      ref = [ i*(i+1) for i in series[0]]
-      pyplot.plot(series[0], ref, "g-" )
 
-      z = polyfit(series[0], series[2], 3)
-      p = poly1d(z)
+      #ref = [ i*(i+1) for i in series[0]]
+      #pyplot.plot(series[0], ref, "g-" )
 
-      pyplot.plot(series[0], p(series[0]), "b-")
+      #z = polyfit(series[0], series[2], 3)
+      #p = poly1d(z)
+
+      #pyplot.plot(series[0], p(series[0]), "b-")
 
     elif data['type'] == TCPDUMP:
       data = data['content'] 
