@@ -190,6 +190,13 @@
         <section class="slide">
         <h2>WebSocket: Framing </h2>
         <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
+        <pre> opcode
+0x00: this frame continues the payload from the last.
+0x01: this frame includes utf-8 text data.
+0x02: this frame includes binary data.
+0x08: this frame terminates the connection.
+0x09: this frame is a ping.
+0x10: this frame is a pong.</pre>
         </section>
 
         <section class="slide">
