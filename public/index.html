@@ -93,11 +93,6 @@
         </section>
 
         <section class="slide">
-        <h2>Google Doc's traffic</h2>
-        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-06%20at%2010.26.06%20PM.png">
-        </section>
-
-        <section class="slide">
         <h2> Traffic of idle Facebook </h2>
         <h3>duration 5772</h3>
         <h3>total packets length 198381</h3>
@@ -130,12 +125,6 @@
         <h3> app show take care of more </h3>
         </section>
 
-        <section class="slide">
-        <h2> Real-time collaborating </h2>
-        <h3> Trello </h3>
-        <h3> Etherpad </h3>
-        </section>
-
         
         <section class="slide">
         <h2>Benchmark</h2>
@@ -143,10 +132,6 @@
         <h3></h3>
         </section>
 
-        <section class="slide">
-        <h2>WebSocket: About the protocol</h2>
-        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
-        </section>
 
         <section class="slide">
         <h2> WebSocket: The handshake </h2>
@@ -173,22 +158,34 @@
 
         <section class="slide">
         <h2>WebSocket: About the protocol</h2>
-        <p>
+        <h4>
         base64-encoded minus any leading and trailing whitespace
         Append following  Globally Unique Identifier (GUID).
         A UUID is 128 bits long, and requires no central registration process. 
+        </h4>
         <pre>Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==</pre>
         
         <pre>258EAFA5-E914-47DA-95CA-C5AB0DC85B11</pre>
 
-            Then hash with sha-1, encoded with base64
+        <h4> Then hash with sha-1, encoded with base64</h4>
         <pre>Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=</pre>
+        </section>
 
-        </p>
+        <section class="slide">
+        <h2>WebSocket: Framing </h2>
+        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
         </section>
 
         <section class="slide">
         <h2>WebSocket: Ping Pong</h2>
+        <h3> The alternative to header Keep Alive </h3>
+        <h3> In case the middlebox close the tunnel </h3>
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: Security </h2>
+        <h3>TLS/SSL</h3>
+        <h3>Silent push executables to client</h3>
         </section>
 
         <section class="slide">
@@ -202,14 +199,37 @@
             <td><img src="http://dl.dropbox.com/u/40884644/sio091heap.png"></td></tr>
         </table>
         </section>
+
         <section class="slide">
         <h2>WebSocket: Support</h2>
         <img src="http://dl.dropbox.com/u/40884644/websocket_support.png">
         <p>http://caniuse.com/websockets</p>
         </section>
+
+        <section class="slide">
+        <h2>UDP</h2>
+        <h3> We don't always need bi-directional </h3>
+        <h3> Browser can't create UDP </h3>
+        <h3> Chrome allows developer to create App and Ext that able to create sockets </h3>
+        
+        <h3> </h3>
+        </section>
+
         <section class="slide">
         <h2>The Application</h2>
+        <h3>Chat</h3>
+        <h3>Activity Streams</h3>
+        <h3>Notifications</h3>
+        <h3>Collaboration</h3>
+        <h3>Multiplayer games</h3>
         </section>
+
+        <section class="slide">
+        <h2> Real-time collaborating </h2>
+        <h3> Trello </h3>
+        <h3> Etherpad </h3>
+        </section>
+
         <!-- End slides. -->
 
         <!-- Begin extension snippets. Add or remove as needed. -->
