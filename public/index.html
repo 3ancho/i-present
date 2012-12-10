@@ -38,7 +38,7 @@
   <body>
     <div class="container-fluid" style="margin-top: 20px">
       <div class="row-fluid span12">
-        <article class="span8 deck-container" style="min-height: 560px">
+        <article class="span8 deck-container" style="min-height: 660px">
         <!-- Begin slides. Just make elements with a class of slide. -->
 
         <section class="slide">
@@ -344,15 +344,15 @@
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
                     ['time','usr','idle'],
-                    [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
-                    [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
-                    [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
-                    [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
                     [stats_array[4].date.substring(12,19), Math.floor(stats_array[4].cpu.us), Math.floor(stats_array[4].cpu.id)],
+                    [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
+                    [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
+                    [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
+                    [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
             ]);
 
             var options = {
-                title: 'CPU Usage',
+                title: 'Real Time CPU Usage',
             };
 
             var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));

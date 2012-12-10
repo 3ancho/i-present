@@ -32,27 +32,30 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
 
     <!-- Ruoran -->
+    <!--  Yan  -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   </head>
   <body>
     <div class="container-fluid" style="margin-top: 20px">
       <div class="row-fluid span12">
-        <article class="span8 deck-container" style="min-height: 560px">
+        <article class="span8 deck-container" style="min-height: 660px">
         <!-- Begin slides. Just make elements with a class of slide. -->
 
         <section class="slide">
-        <h1>WebSocket and Interactive Web App</h1>
+        <h1>Web Socket and Interactive Web App</h1>
         <h2>Ruoran Wang, Yan Wang</h2>
         </section>
 
         <section class="slide">
         <h2>Overview</h2>
         <h3>Problems with HTTP</h3>
-        <h3>Intro</h3>
+        <h3>Introduction</h3>
         <h3>Background</h3>
+        <h3>WebSocket: About the protocol</h3>
         <h3>AJAX and Long Polling</h3>
         <h3>Benchmarks</h3>
-        <h3>WebSocket: About the protocol</h3>
         <h3>WebSocket: Performance</h3>
+        <h3>WebSocket: Support</h3>
         <h3>The Application</h3>
         </section>
 
@@ -61,82 +64,77 @@
         <h3>Real-time? No</h3>
         <h3>Bi-directional? No</h3>
           <h4> Hack Periodic Polling </h4>
-          <h5>Client poll updates from server, every n secs</h5>  
+          <h5>Client poll from server periodically</h5>  
           <h5>Requests that could return nothing! Waste!</h5>  
-          <h4> Hack 2.0 Long Polling(Comet) </h4>
-          <h5>Poll request is kept by server, until data avialable</h5>  
+          <h4> Hack 2.0 Long Polling (Comet) </h4>
+          <h5> Polling process is done by server</h5>  
           <h5> Poor resource utilization on server!</h5>  
         <h3>Additional Headers? Yes</h3>
         <br>
         <h3>
         </section>
-
         <section class="slide">
-        <h2> Periodic Polling </h2>
+        <h2>Periodic Polling</h2>
+        <img src="http://dl.dropbox.com/u/40884644/Period_polling_cute_pic.png">
         </section>
 
         <section class="slide">
-        <h2> Long Polling </h2>
+        <h2> Periodic Polling(Continued) </h2>
+        <img src="http://dl.dropbox.com/u/40884644/periodic_polling_wireshark.png">
         </section>
 
         <section class="slide">
-        <h2>Intro</h2>
+        <h2> Long Polling<h2>
+        <img src="http://dl.dropbox.com/u/40884644/long_polling_cute_pic.png">
+        </section>
+
+        <section class="slide">
+        <h2> Long Polling(Continued) </h2>
+        <img src="http://dl.dropbox.com/u/40884644/long_polling_wireshark.png">
+        </section>
+        
+        <section class="slide">
+        <h2>Traffic of idle Google Doc</h2>
+        <h3>Cookies are send along with polling (HTTP) requests</h3>
+        <h4> Duration: 2094 secs </h4>
+        <h4> Total packets length 259852</h4>
+        <h4> 124.093600764 B/s</h4>
+        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-06%20at%2010.26.06%20PM.png">
+        </section>
+
+        <section class="slide">
+        <h2> Traffic of idle Facebook </h2>
+        <h3>duration 5772</h3>
+        <h3>total packets length 198381</h3>
+        <h3> 34.3695426195 B/s</h3>
+        <img src="https://dl.dropbox.com/u/4489964/facebook.png">
+        </section>
+
+
+        <section class="slide">
+        <h2> WebSocket</h2>
+        <img src="http://dl.dropbox.com/u/40884644/websocket_cute_pic.png">
+        </section>
+
+
+        <section class="slide">
+        <h2>Introduction</h2>
         <h3> For web applications (Browser)</h3>
         <h3>RFC 6455</h3>
         <h3>On top of TCP</h3>
         </br>
         <h3>1. Real-Time (event-driven)</h3>
         <h3>2. Duplex tunnel</h3>
-        <h3>Heart Beat (e.g. google doc)</h3>
         </section>
 
         <section class="slide">
-        <h2>Intro (Continued)</h2>
-        <h3> Start with HTTP, Upgrade to Websocket </h3>
+        <h2> Introduction </h2>
+        <h3> Start with HTTP, Upgrade to WebSocket </h3>
         <h3> Port 80/443 - Proxy/Firewall friendly</h3>
         <h4> ws:// and wss:// </h4>
         <h3> Each message has only 2 bytes of overhead</h3>
         <h3> No need to establish new TCP for each HTTP message </h3>
         <h3> No pooling overhead </h3>
-        </section>
-
-        <section class="slide">
-        <h2>Detail (Continued)</h2>
-        <h3> close event </h3>
-        <h3> app show take care of more </h3>
-        </section>
-
-        <section class="slide">
-        <h2>Background</h2>
-        </section>
-
-  
-        <section class="slide">
-        <h2>Google Doc's traffic</h2>
-        
-        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-06%20at%2010.26.06%20PM.png">
-        </section>
-
-        <section class="slide">
-        <h2>Trello</h2>
-        <h3> Real-time collaborating </h3>
-        </section>
-
-        <section class="slide">
-        <h2>AJAX and Long Polling</h2>
-        <p> Facebook is doing Polling </p>
-        <p> Here is a graph </p>
-        </section>
-        
-        <section class="slide">
-        <h2>Benchmark</h2>
-        <img src="https://dl.dropbox.com/u/4489964/websocket_broadcast.png">
-        <h3></h3>
-        </section>
-
-        <section class="slide">
-        <h2>WebSocket: About the protocol</h2>
-        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
         </section>
 
         <section class="slide">
@@ -163,31 +161,115 @@
         </section>
 
         <section class="slide">
-        <h2>WebSocket: About the protocol</h2>
-        <p>
-        base64-encoded minus any leading and trailing whitespace
-        Append following  Globally Unique Identifier (GUID).
-        A UUID is 128 bits long, and requires no central registration process. 
+        <h2>WebSocket: More handshake</h2>
+        <h4>
+        random base64-encoded string append with Globally Unique Identifier (GUID).
+        </h4>
         <pre>Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==</pre>
-        
+
+        <h4> A 128 bits long, and requires no central registration process. </h4>
         <pre>258EAFA5-E914-47DA-95CA-C5AB0DC85B11</pre>
 
-            Then hash with sha-1, encoded with base64
+        <h4> Then hash with sha-1, encoded with base64</h4>
         <pre>Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=</pre>
+        </section>
 
-        </p>
+        <section class="slide">
+        <h2>WebSocket: Security </h2>
+        <h3>TLS/SSL</h3>
+        <h3>Silent push executables to client</h3>
+        <h3> Subprotocol </h3>
+        </section>
+
+
+        <section class="slide">
+        <h2>WebSocket: Framing </h2>
+        <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-07%20at%2011.54.01%20PM.png">
+        <pre> opcode
+0x00: this frame continues the payload from the last.
+0x01: this frame includes utf-8 text data.
+0x02: this frame includes binary data.
+0x08: this frame terminates the connection.
+0x09: this frame is a ping.
+0x10: this frame is a pong.</pre>
         </section>
 
         <section class="slide">
         <h2>WebSocket: Ping Pong</h2>
+        <h3> The alternative to header Keep Alive </h3>
+        <h3> In case the middlebox close the tunnel </h3>
         </section>
 
         <section class="slide">
+        <h2>Benchmark</h2>
+        <img src="https://dl.dropbox.com/u/4489964/websocket_broadcast.png">
+        <h3></h3>
+        </section>
+
+
+        <section class="slide">
         <h2>WebSocket: Performance</h2>
+        <table>
+            <tr><td><img src="http://dl.dropbox.com/u/40884644/sio091cpu.png"></td>
+            <td><img src="http://dl.dropbox.com/u/40884644/sio091cputime.png"></td></tr>
+        </table>
+        <table>
+            <tr><td><img src="http://dl.dropbox.com/u/40884644/sio091mem.png"></td> 
+            <td><img src="http://dl.dropbox.com/u/40884644/sio091heap.png"></td></tr>
+        </table>
+        </section>
+
+        <section class="slide">
+        <h2>WebSocket: Support</h2>
+        <img src="http://dl.dropbox.com/u/40884644/websocket_support.png">
+        <p>http://caniuse.com/websockets</p>
+        </section>
+
+        <section class="slide">
+        <h2> Protocol over UDP? </h2>
+        <h3> We don't always need bi-directional </h3>
+        <h3> Browsers can not deal with UDP? </h3>
+        <h3> At leaset some of them they will </h3>
+        <h3> Chrome expose API to create TCP/UDP socket </h3>
+        </section>
+
+        <section class="slide">
+        <h2> UDP client, and even server </h2>
+        <pre>
+        chrome.socket.bind(...) 
+        chrome.socket.connect(...) 
+        chrome.socket.write(...)
+        chrome.socket.read(...)
+        ...
+        </pre>
+        <h3>WebSocket over UDP instead of TCP</h3>
+        <h3>Experiment with  Chrome(Canary) </h3>
+        </section>
+        
+        <section class="slide">
+        <h2> Chrome UDP socket vs WebSocket (Echo server)</h2>
+        <h3> We expect UDP messages to have less RTT</h3>
+        <h3> But the result shows the opposite </h3> 
+        <img src="https://dl.dropbox.com/u/4489964/udp_websocket_delay.png">
+        <h3> We assume it's caused by the implementation </h3> 
         </section>
 
         <section class="slide">
         <h2>The Application</h2>
+        <h3 class="btn"><b>Chat</b></h3>
+        <h3>Activity Streams</h3>
+        <h3>Notifications</h3>
+        <h3>Collaboration</h3>
+        <h3>Multilayer games</h3>
+        </br>
+        <h3> Trello </h3>
+        <h3> Etherpad </h3>
+        <h3> This </h3>
+        </section>
+
+        <section class="slide">
+        <h2>Thanks</h2>
+        <h3>Source code http://goo.gl/UP492</h3>
         </section>
         <!-- End slides. -->
 
@@ -233,26 +315,72 @@
 
         </article>
 
-        <aside id="side-bar" class="span3 well">
-        <p id="client-count"> 0 </p>
-        <p>Chat Window</p>
+        <aside id="show-side-bar" class="span3" style="visibility:visible; "> <button class="btn btn-large btn-primary" id="show" type="button"> Show Chat Window</button> </aside> 
+        <aside id="side-bar" class="span3 well" style="min-height:560px;visibility: hidden">
+        <p id="client-count"><i class="icon-user" style="margin-right:12px "></i> <b> 0 </b></p>
+        <p>Chat Window &nbsp &nbsp &nbsp<button class="btn btn-small btn-primary" type="button" id="hide"> Hide </button>
+        </p>
 
-        <div id="chat-content" style="height: 300px">
+        <div id="chat-content" style="height: 265px; overflow:auto;">
         </div>
 
         <div class="input-append">
           <input id="chat-message" class="span10" type="text"></input>
           <button class="btn" type="button" id="say" >Say</button>
         </div>
+
+       	<div id="chart_div"></div>
+
         </aside>
       </div> <!-- end of div row -->
     </div> <!-- end of div container -->
 
     <script src="socket.io/socket.io.js"></script> 
+
+    <script type="text/javascript">
+    var socket;
+    stats_array = new Array(10);
+    var out = $('#out');
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+                    ['time','usr','idle'],
+                    [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
+                    [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
+                    [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
+                    [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
+                    [stats_array[4].date.substring(12,19), Math.floor(stats_array[4].cpu.us), Math.floor(stats_array[4].cpu.id)],
+            ]);
+
+            var options = {
+                title: 'CPU Usage',
+            };
+
+            var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+
+        socket = io.connect("http://s2.decx.co:3232");
+        socket.on("connect",function() {
+        });
+
+        socket.on("message", function(event) {
+        stats = event.data;
+        data = JSON.parse(stats);
+        console.log("received data");
+        stats_array.unshift(data);
+        stats_array.pop();
+        if (stats_array[4]) drawChart(); 
+        });
+
+google.load("visualization", "1", {packages:["corechart"]});
+//google.setOnLoadCallback(drawChart);
+
+</script>
+
     <script>
       // First class functions
       name = ""
-      var socket = io.connect("http://localhost:3000");
+      var socket = io.connect("http://s2.decx.co:3000");
       socket.on("news", function (data) {
         console.log(data.content);
         $("#client-count").text(data.clients);
@@ -281,25 +409,38 @@
       // Helper functions
       function send_message() {
         if (name == "") {
-          name = prompt("Enter your name first","Luke Skywalker");
+          name = prompt("Enter your name first","Anonymous");
           while (name == null || name == "") {
-            name == prompt("Please enter your name","Luke Skywalker");
+            name == prompt("Please enter your name","Anonymous");
           }
         }
         var new_chat_message = $("#chat-message").val()
         socket.emit("message", {nickname: name, content: new_chat_message });
-        $("#chat-content").append("<p>" + name + ": " + new_chat_message + "</p>");
+        $("#chat-content").prepend("<p style='font-size:11px; margin-bottom:11px'>" + name + ": " + new_chat_message + "</p>");
         $("#chat-message").val("")
+        var myDiv = $("#chat-content");
+        myDiv.scrollTop = myDiv.scrollHeight; 
       }
 
       // jQuery Start
       $(document).ready(function() {
         $.deck(".slide");
 
-        $(document).bind("deck.change", function (event, from, to) {
+        $("#hide").bind("click", function () {
+          $("#side-bar").css("visibility" , "hidden"); 
+          $("#side-bar").prepend( ' <aside id="show-side-bar"  style="visibility:visible"> <button class="btn btn-large btn-primary" id="show" type="button">Show Chat Window</button> </aside> ' );
+        });
+
+        $("#show").live("click", function () {
+          $("#side-bar").css("visibility" , "visible"); 
+          $("#show-side-bar").remove(); 
+        });
+
+        $(document).live("deck.change", function (event, from, to) {
           console.log(to);
           socket.emit("change_slide", to); 
         });
+
 
         $("#say").click(send_message);
 
