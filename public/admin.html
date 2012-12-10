@@ -48,14 +48,14 @@
 
         <section class="slide">
         <h2>Overview</h2>
+        <h3>http://goo.gl/LY2zv</h3>
         <h3>Problems with HTTP</h3>
-        <h3>Introduction</h3>
-        <h3>Background</h3>
-        <h3>WebSocket: About the protocol</h3>
         <h3>AJAX and Long Polling</h3>
+        <h3>Introduction</h3>
+        <h3>WebSocket: About the protocol</h3>
         <h3>Benchmarks</h3>
         <h3>WebSocket: Performance</h3>
-        <h3>WebSocket: Support</h3>
+        <h3>WebSocket: UDP? </h3>
         <h3>The Application</h3>
         </section>
 
@@ -98,21 +98,21 @@
         <h3>Cookies are send along with polling (HTTP) requests</h3>
         <h4> Duration: 2094 secs </h4>
         <h4> Total packets length 259852</h4>
-        <h4> 124.093600764 B/s</h4>
+        <h4> 124.093 Byte/s</h4>
         <img src="https://dl.dropbox.com/u/4489964/Screen%20Shot%202012-12-06%20at%2010.26.06%20PM.png">
         </section>
 
         <section class="slide">
         <h2> Traffic of idle Facebook </h2>
-        <h3>duration 5772</h3>
-        <h3>total packets length 198381</h3>
-        <h3> 34.3695426195 B/s</h3>
+        <h3>Duration 5772</h3>
+        <h3> Total packets length 198381</h3>
+        <h3> 34.369 Byte/s</h3>
         <img src="https://dl.dropbox.com/u/4489964/facebook.png">
         </section>
 
 
         <section class="slide">
-        <h2> WebSocket</h2>
+        <h2> WebSocket </h2>
         <img src="http://dl.dropbox.com/u/40884644/websocket_cute_pic.png">
         </section>
 
@@ -120,20 +120,22 @@
         <section class="slide">
         <h2>Introduction</h2>
         <h3> For web applications (Browser)</h3>
-        <h3>RFC 6455</h3>
-        <h3>On top of TCP</h3>
+        <h3> Documented in RFC 6455</h3>
+        <h3> On top of TCP </h3>
+        <h3> Designed to replace HTTP for certain scenarios</h3>
         </br>
         <h3>1. Real-Time (event-driven)</h3>
         <h3>2. Duplex tunnel</h3>
+        <h3>3. Minimum frame</h3>
         </section>
 
         <section class="slide">
         <h2> Introduction </h2>
         <h3> Start with HTTP, Upgrade to WebSocket </h3>
-        <h3> Port 80/443 - Proxy/Firewall friendly</h3>
+        <h3> Port 80/443 </h3>
         <h4> ws:// and wss:// </h4>
+        <h3> Proxy/Firewall friendly, will set up tunnel through proxy</h3>
         <h3> Each message has only 2 bytes of overhead</h3>
-        <h3> No need to establish new TCP for each HTTP message </h3>
         <h3> No pooling overhead </h3>
         </section>
 
@@ -161,6 +163,18 @@
         </section>
 
         <section class="slide">
+        <h2>WebSocket: HTTP Headers</h2>
+        <pre>
+        Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==
+        Sec-WebSocket-Protocol: chat
+        Sec-WebSocket-Version: 13
+        </pre>
+        <h3> In order to negotiate on a sub-protocol </h3>
+        <h3> Verify the server will talk WebSocket </h3>
+        </section>
+
+
+        <section class="slide">
         <h2>WebSocket: More handshake</h2>
         <h4>
         random base64-encoded string append with Globally Unique Identifier (GUID).
@@ -177,8 +191,13 @@
         <section class="slide">
         <h2>WebSocket: Security </h2>
         <h3>TLS/SSL</h3>
+        <pre> wss:// </pre>
         <h3>Silent push executables to client</h3>
-        <h3> Subprotocol </h3>
+        <h3>Client side code is also from the same source</h3>
+        <h3>Browser level warning ? </h3>
+        <h3>No header? MIME Type is often used to check malicious code</h3>
+        <h3>Subprotocol </h3>
+        
         </section>
 
 
@@ -198,6 +217,7 @@
         <h2>WebSocket: Ping Pong</h2>
         <h3> The alternative to header Keep Alive </h3>
         <h3> In case the middlebox close the tunnel </h3>
+        <img src="https://dl.dropbox.com/u/4489964/pingpong.png">
         </section>
 
         <section class="slide">
@@ -255,6 +275,12 @@
         </section>
 
         <section class="slide">
+        <h2> What's more</h2>
+        <h3> Per-frame compression</h3>
+        <h3> We are already zipping headers</h3> 
+        </section>
+
+        <section class="slide">
         <h2>The Application</h2>
         <h3 class="btn"><b>Chat</b></h3>
         <h3>Activity Streams</h3>
@@ -269,7 +295,11 @@
 
         <section class="slide">
         <h2>Thanks</h2>
-        <h3>Source code http://goo.gl/UP492</h3>
+        <h3>Used wireshark, tcpdum, deck.js, socket.io.js </h3>
+        <h3>Scripted data parsers wireshark and tcpdum </h3>
+        <h3>Implemented chrome socket: server and client </h3>
+        <h3>Build testing WebSocket chat app and ajax chat</h3>
+        <h3>source code http://goo.gl/UP492</h3>
         </section>
         <!-- End slides. -->
 
@@ -344,15 +374,15 @@
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
                     ['time','usr','idle'],
-                    [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
-                    [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
-                    [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
-                    [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
                     [stats_array[4].date.substring(12,19), Math.floor(stats_array[4].cpu.us), Math.floor(stats_array[4].cpu.id)],
+                    [stats_array[3].date.substring(12,19), Math.floor(stats_array[3].cpu.us), Math.floor(stats_array[3].cpu.id)],
+                    [stats_array[2].date.substring(12,19), Math.floor(stats_array[2].cpu.us), Math.floor(stats_array[2].cpu.id)],
+                    [stats_array[1].date.substring(12,19), Math.floor(stats_array[1].cpu.us), Math.floor(stats_array[1].cpu.id)],
+                    [stats_array[0].date.substring(12,19), Math.floor(stats_array[0].cpu.us), Math.floor(stats_array[0].cpu.id)],
             ]);
 
             var options = {
-                title: 'CPU Usage',
+                title: 'Real Time CPU Usage',
             };
 
             var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
