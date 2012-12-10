@@ -75,7 +75,7 @@ class ParseApp(object):
       x = [i for i in range(len(data)) ]
 #      for i, item in enumerate(series[1:]):
 #        pyplot.plot(series[0], item, label=label[i+1])
-      pyplot.plot(series[0], series[2], "mo", label=label[2])
+      pyplot.plot(series[0], series[2],  label=label[2])
 
       #ref = [ i*(i+1) for i in series[0]]
       #pyplot.plot(series[0], ref, "g-" )

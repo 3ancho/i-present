@@ -42,14 +42,14 @@
         <!-- Begin slides. Just make elements with a class of slide. -->
 
         <section class="slide">
-        <h1>WebSocket and Interactive Web App</h1>
+        <h1>Web Socket and Interactive Web App</h1>
         <h2>Ruoran Wang, Yan Wang</h2>
         </section>
 
         <section class="slide">
         <h2>Overview</h2>
         <h3>Problems with HTTP</h3>
-        <h3>Intro</h3>
+        <h3>Introduction</h3>
         <h3>Background</h3>
         <h3>WebSocket: About the protocol</h3>
         <h3>AJAX and Long Polling</h3>
@@ -107,17 +107,18 @@
         <h3>duration 5772</h3>
         <h3>total packets length 198381</h3>
         <h3> 34.3695426195 B/s</h3>
+        <img src="https://dl.dropbox.com/u/4489964/facebook.png">
         </section>
 
 
         <section class="slide">
-        <h2> Websocket</h2>
+        <h2> WebSocket</h2>
         <img src="http://dl.dropbox.com/u/40884644/websocket_cute_pic.png">
         </section>
 
 
         <section class="slide">
-        <h2>Intro</h2>
+        <h2>Introduction</h2>
         <h3> For web applications (Browser)</h3>
         <h3>RFC 6455</h3>
         <h3>On top of TCP</h3>
@@ -127,28 +128,14 @@
         </section>
 
         <section class="slide">
-        <h2> Intro (Continued)</h2>
-        <h3> Start with HTTP, Upgrade to Websocket </h3>
+        <h2> Introduction </h2>
+        <h3> Start with HTTP, Upgrade to WebSocket </h3>
         <h3> Port 80/443 - Proxy/Firewall friendly</h3>
         <h4> ws:// and wss:// </h4>
         <h3> Each message has only 2 bytes of overhead</h3>
         <h3> No need to establish new TCP for each HTTP message </h3>
         <h3> No pooling overhead </h3>
         </section>
-
-        <section class="slide">
-        <h2> Detail (Continued)</h2>
-        <h3> Heart-Beat / Ping Pong</h3>
-        <h3> app show take care of more </h3>
-        </section>
-
-        
-        <section class="slide">
-        <h2>Benchmark</h2>
-        <img src="https://dl.dropbox.com/u/4489964/websocket_broadcast.png">
-        <h3></h3>
-        </section>
-
 
         <section class="slide">
         <h2> WebSocket: The handshake </h2>
@@ -174,19 +161,26 @@
         </section>
 
         <section class="slide">
-        <h2>WebSocket: About the protocol</h2>
+        <h2>WebSocket: More handshake</h2>
         <h4>
-        base64-encoded minus any leading and trailing whitespace
-        Append following  Globally Unique Identifier (GUID).
-        A UUID is 128 bits long, and requires no central registration process. 
+        random base64-encoded string append with Globally Unique Identifier (GUID).
         </h4>
         <pre>Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==</pre>
-        
+
+        <h4> A 128 bits long, and requires no central registration process. </h4>
         <pre>258EAFA5-E914-47DA-95CA-C5AB0DC85B11</pre>
 
         <h4> Then hash with sha-1, encoded with base64</h4>
         <pre>Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=</pre>
         </section>
+
+        <section class="slide">
+        <h2>WebSocket: Security </h2>
+        <h3>TLS/SSL</h3>
+        <h3>Silent push executables to client</h3>
+        <h3> Subprotocol </h3>
+        </section>
+
 
         <section class="slide">
         <h2>WebSocket: Framing </h2>
@@ -207,10 +201,11 @@
         </section>
 
         <section class="slide">
-        <h2>WebSocket: Security </h2>
-        <h3>TLS/SSL</h3>
-        <h3>Silent push executables to client</h3>
+        <h2>Benchmark</h2>
+        <img src="https://dl.dropbox.com/u/4489964/websocket_broadcast.png">
+        <h3></h3>
         </section>
+
 
         <section class="slide">
         <h2>WebSocket: Performance</h2>
@@ -231,17 +226,33 @@
         </section>
 
         <section class="slide">
-        <h2> UDP </h2>
+        <h2> Protocol over UDP? </h2>
         <h3> We don't always need bi-directional </h3>
-        <h3> Browser can't create UDP </h3>
-        <h3> Chrome allows developer to create App and Ext that able to create sockets </h3>
+        <h3> Browsers can not deal with UDP? </h3>
+        <h3> At leaset some of them they will </h3>
+        <h3> Chrome expose API to create TCP/UDP socket </h3>
         </section>
 
         <section class="slide">
         <h2> UDP client, and even server </h2>
-        <h3></h3>
+        <pre>
+        chrome.socket.bind(...) 
+        chrome.socket.connect(...) 
+        chrome.socket.write(...)
+        chrome.socket.read(...)
+        ...
+        </pre>
+        <h3>WebSocket over UDP instead of TCP</h3>
+        <h3>Experiment with  Chrome(Canary) </h3>
         </section>
         
+        <section class="slide">
+        <h2> Chrome UDP socket vs WebSocket (Echo server)</h2>
+        <h3> We expect UDP messages to have less RTT</h3>
+        <h3> But the result shows the opposite </h3> 
+        <img src="https://dl.dropbox.com/u/4489964/udp_websocket_delay.png">
+        <h3> We assume it's caused by the implementation </h3> 
+        </section>
 
         <section class="slide">
         <h2>The Application</h2>
@@ -249,15 +260,17 @@
         <h3>Activity Streams</h3>
         <h3>Notifications</h3>
         <h3>Collaboration</h3>
-        <h3>Multiplayer games</h3>
+        <h3>Multilayer games</h3>
+        </br>
+        <h3> Trello </h3>
+        <h3> Etherpad </h3>
+        <h3> This </h3>
         </section>
 
         <section class="slide">
-        <h2> Real-time collaborating </h2>
-        <h3> Trello </h3>
-        <h3> Etherpad </h3>
+        <h2>Thanks</h2>
+        <h3>Source code http://goo.gl/UP492</h3>
         </section>
-
         <!-- End slides. -->
 
         <!-- Begin extension snippets. Add or remove as needed. -->
