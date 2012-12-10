@@ -256,7 +256,7 @@
 
         <section class="slide">
         <h2>The Application</h2>
-        <h3>Chat</h3>
+        <h3 class="btn"><b>Chat</b></h3>
         <h3>Activity Streams</h3>
         <h3>Notifications</h3>
         <h3>Collaboration</h3>
@@ -315,11 +315,13 @@
 
         </article>
 
-        <aside id="side-bar" class="span3 well">
-        <p id="client-count"> 0 </p>
-        <p>Chat Window</p>
+        <aside id="show-side-bar" class="span3" style="visibility:visible; "> <button class="btn btn-large btn-primary" id="show" type="button"> Show Chat Window</button> </aside> 
+        <aside id="side-bar" class="span3 well" style="min-height:560px;visibility: hidden">
+        <p id="client-count"><i class="icon-user" style="margin-right:12px "></i> <b> 0 </b></p>
+        <p>Chat Window &nbsp &nbsp &nbsp<button class="btn btn-small btn-primary" type="button" id="hide"> Hide </button>
+        </p>
 
-        <div id="chat-content" style="height: 300px">
+        <div id="chat-content" style="height: 265px; overflow:auto;">
         </div>
 
         <div class="input-append">
@@ -407,25 +409,38 @@ google.load("visualization", "1", {packages:["corechart"]});
       // Helper functions
       function send_message() {
         if (name == "") {
-          name = prompt("Enter your name first","Luke Skywalker");
+          name = prompt("Enter your name first","Anonymous");
           while (name == null || name == "") {
-            name == prompt("Please enter your name","Luke Skywalker");
+            name == prompt("Please enter your name","Anonymous");
           }
         }
         var new_chat_message = $("#chat-message").val()
         socket.emit("message", {nickname: name, content: new_chat_message });
-        $("#chat-content").append("<p>" + name + ": " + new_chat_message + "</p>");
+        $("#chat-content").prepend("<p style='font-size:11px; margin-bottom:11px'>" + name + ": " + new_chat_message + "</p>");
         $("#chat-message").val("")
+        var myDiv = $("#chat-content");
+        myDiv.scrollTop = myDiv.scrollHeight; 
       }
 
       // jQuery Start
       $(document).ready(function() {
         $.deck(".slide");
 
-        //$(document).bind("deck.change", function (event, from, to) {
+        $("#hide").bind("click", function () {
+          $("#side-bar").css("visibility" , "hidden"); 
+          $("#side-bar").prepend( ' <aside id="show-side-bar"  style="visibility:visible"> <button class="btn btn-large btn-primary" id="show" type="button">Show Chat Window</button> </aside> ' );
+        });
+
+        $("#show").live("click", function () {
+          $("#side-bar").css("visibility" , "visible"); 
+          $("#show-side-bar").remove(); 
+        });
+
+        //$(document).live("deck.change", function (event, from, to) {
         //  console.log(to);
         //  socket.emit("change_slide", to); 
         //});
+
 
         $("#say").click(send_message);
 
